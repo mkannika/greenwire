@@ -1,0 +1,264 @@
+@import "assets/_variables";
+@import "assets/fonts";
+
+body {
+    font-family: $font-Basier-regular;
+}
+
+.container {
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+    }
+}
+
+a {
+    font-family: $font-Basier-regular;
+    text-decoration: none;
+}
+
+p {
+    font-family: $font-Basier-regular;
+    margin: 0;
+}
+
+header {
+    border-top: 8px solid $color-green-light;
+
+    .nav-top {
+        height: 118px;
+        background: $color-green-dark;
+
+        .auth_button {
+            a {
+                font-size: 13px;
+                color: $color-white;
+
+                img {
+                    margin-right: 10px;
+                }
+
+                &:first-of-type {
+                    margin-right: 34px;
+                    position: relative;
+
+                    &:after {
+                        content: '';
+                        width: 1px;
+                        height: 14px;
+                        background: $color-green-light;
+                        position: relative;
+                        right: -17px;
+                    }
+                }
+            }
+        }
+
+        .user_profile {
+            .user_welcome {
+                margin-right: 48px;
+
+                img {
+                    margin-right: 14px;
+                    border: 1px solid $color-green-light;
+                    border-radius: 50%;
+                }
+
+                .welcome {
+                    p {
+                        font-size: 13px;
+                        color: $color-white;
+                        line-height: 15px;
+
+                        span {
+                            font-size: 8px;
+                            color: $color-green-light;
+                            line-height: 10px;
+                            display: block;
+                        }
+                    }
+                }
+
+                &:after {
+                    content: '';
+                    width: 1px;
+                    height: 14px;
+                    background: $color-green-light;
+                    position: relative;
+                    top: 6px;
+                    right: -17px;
+                }
+            }
+
+            .user_address {
+                p {
+                    color: $color-white;
+                    margin-top: 13px;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-bottom {
+        height: 75px;
+        border-bottom: 1px solid $color-grey;
+
+        .hamburger-menu {
+            width: 80px;
+            height: 75px;
+            border-left: 1px solid $color-grey;
+            border-right: 1px solid $color-grey;
+            cursor: pointer;
+
+            span {
+                width: 24px;
+                height: 2px;
+                background: $color-green;
+                position: absolute;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+
+                &:nth-child(1) {
+                    transform: translateY(-7px);
+                }
+
+                &:nth-child(3) {
+                    transform: translateY(7px);
+                }
+            }
+        }
+
+        form {
+            position: relative;
+            border-right: 1px solid $color-grey;
+
+            input {
+                font-size: 15px;
+                color: $color-green;
+                width: 370px;
+                height: 100%;
+                padding: 0 66px 0 40px;
+                border: 0;
+                background: #0000;
+                outline: 0;
+
+                &::placeholder {
+                    color: $color-green;
+                }
+            }
+
+            button {
+                width: 66px;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #0000;
+                border: 0;
+            }
+        }
+
+        nav {
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                margin: 0 -33px;
+
+                li {
+                    a {
+                        font-size: 15px;
+                        color: $color-grey-dark;
+                        padding: 15px 33px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background: $color-grey-light;
+
+    .footer-top {
+        padding: 7px 0;
+        border-bottom: 1px solid $color-grey;
+
+        img {
+            max-height: 65px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            margin: 0 -33px;
+
+            li {
+                a {
+                    font-size: 15px;
+                    color: $color-grey-dark;
+                    padding: 15px 33px;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        padding: 26px 0 76px 0;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            &.social-list {
+                margin: 27px -17px 35px -17px;
+
+                li {
+                    a {
+                        padding: 17px;
+
+                        img {
+                            width: 100%;
+                            max-width: 20px;
+                            max-height: 20px;
+                        }
+                    }
+                }
+            }
+
+            &.footer-nav {
+                padding: 0 0 0 32px;
+
+                li {
+                    a {
+                        font-size: 16px;
+                        line-height: 36px;
+                        color: $color-grey-dark;
+                    }
+                }
+            }
+        }
+
+        p {
+            font-size: 15px;
+            color: $color-grey-dark;
+        }
+    }
+}
+
+article {
+    padding-top: 200px;
+}

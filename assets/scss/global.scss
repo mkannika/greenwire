@@ -3,6 +3,7 @@
 
 body {
     font-family: $font-Basier-regular;
+    color: $color-base;
 }
 
 .container {
@@ -21,8 +22,15 @@ p {
     margin: 0;
 }
 
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+
 header {
     border-top: 8px solid $color-green-light;
+    background-color: $color-white;
+    z-index: 10;
 
     .nav-top {
         height: 118px;

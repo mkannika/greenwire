@@ -46,8 +46,42 @@
   font-style: normal;
   font-display: swap;
 }
-h1 {
-  color: #00423E;
+section {
+  --space: 5rem;
+}
+section h1 {
+  color: #3E9E6C;
+}
+section.section-intro {
+  background-color: #FFFAF2;
+  padding-top: var(--space);
+  padding-bottom: var(--space);
+}
+section.section-intro .lead-main {
+  max-width: 600px;
+  margin: auto;
+}
+section.section-intro .filter-select .btn-primary {
+  background-color: #3E9E6C;
+  border-color: #3E9E6C;
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 10px 30px;
+  width: 130px;
+  text-transform: uppercase;
+}
+section.section-intro .filter-select .btn-primary:hover {
+  background-color: #00423E;
+  border-color: #00423E;
+}
+section.section-intro .swiper {
+  width: 600px;
+  height: 300px;
+}
+section.section-popular {
+  background-color: #FFF3E0;
+  padding-top: var(--space);
+  padding-bottom: var(--space);
 }
 
 /*# sourceMappingURL=home.css.map */

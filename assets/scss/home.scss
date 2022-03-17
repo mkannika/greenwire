@@ -1,7 +1,44 @@
 @import "assets/_variables";
 @import "assets/fonts";
 
-h1{
-    color: $color-green-dark;
-}
+section {
+	--space: 5rem;
 
+	h1 {
+		color: $color-green;
+	}
+
+	&.section-intro {
+		background-color: $yellow-light;
+		padding-top: var(--space);
+		padding-bottom: var(--space);
+		.lead-main {
+			max-width: 600px;
+			margin: auto;
+		}
+		.filter-select {
+			.btn-primary {
+				background-color: $color-green;
+				border-color: $color-green;
+				border-radius: 40px;
+				font-size: 14px;
+				padding: 10px 30px;
+				width: 130px;
+				text-transform: uppercase;
+				&:hover {
+					background-color: $color-green-dark;
+					border-color: $color-green-dark;
+				}
+			}
+		}
+		.swiper {
+			width: 600px;
+			height: 300px;
+		}
+	}
+	&.section-popular {
+		background-color: $yellow;
+		padding-top: var(--space);
+		padding-bottom: var(--space);
+	}
+}

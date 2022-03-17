@@ -48,6 +48,7 @@
 }
 body {
   font-family: "Basier Circle Regular";
+  color: #636363;
 }
 
 @media (min-width: 1200px) {
@@ -66,8 +67,15 @@ p {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 header {
   border-top: 8px solid #3FDD6E;
+  background-color: #fff;
+  z-index: 10;
 }
 header .nav-top {
   height: 118px;

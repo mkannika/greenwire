@@ -84,4 +84,41 @@ section.section-popular {
   padding-bottom: var(--space);
 }
 
+.star-rating {
+  direction: rtl;
+  display: inline-block;
+  padding: 20px;
+  cursor: default;
+}
+.star-rating input[type=radio] {
+  display: none;
+}
+.star-rating label {
+  color: #3E9E6C;
+  font-size: 18px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.star-rating label .bi-star-fill {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.star-rating label .bi-star-fill.active {
+  opacity: 1;
+}
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input[type=radio]:checked ~ label {
+  color: #3E9E6C;
+}
+.star-rating label:hover .bi-star-fill,
+.star-rating label:hover ~ label .bi-star-fill,
+.star-rating input[type=radio]:checked ~ label .bi-star-fill {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=home.css.map */

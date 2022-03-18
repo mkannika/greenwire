@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenwire</title>
     <link rel="stylesheet" href="assets/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/home.css">
 
@@ -131,8 +132,237 @@
             <div class="container">
                 <div class="lead-main">
                     <h1>Popular Shop dispensaries</h1>
-                    <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+                    <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                        มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                 </div>
+                <div class="row">
+                    <div class="col-6 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/images/home/popular_card_img_01.jpg" alt="Image">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Popular Shop dispensaries</h3>
+                                <div class="card-rating">
+                                    <div class="score-desc">
+                                        <span>Shop rating:</span>
+                                        <span class="rating-number">2.0</span>
+                                    </div>
+                                    <div class="star-rating">
+                                        <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                        <label for="box1-star-5" title="5 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                        <label for="box1-star-4" title="4 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                        <label for="box1-star-3" title="3 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                        <label for="box1-star-2" title="2 stars">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                        <label for="box1-star-1" title="1 star">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                    ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                    16</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/images/home/popular_card_img_02.jpg" alt="Image">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Popular Shop dispensaries</h3>
+                                <div class="card-rating">
+                                    <div class="score-desc">
+                                        <span>Shop rating:</span>
+                                        <span class="rating-number">2.0</span>
+                                    </div>
+                                    <div class="star-rating">
+                                        <input id="box2-star-5" type="radio" name="rating" value="star-5" />
+                                        <label for="box2-star-5" title="5 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box2-star-4" type="radio" name="rating" value="star-4" />
+                                        <label for="box2-star-4" title="4 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box2-star-3" type="radio" name="rating" value="star-3" />
+                                        <label for="box2-star-3" title="3 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box2-star-2" type="radio" name="rating" value="star-2" />
+                                        <label for="box2-star-2" title="2 stars">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box2-star-1" type="radio" name="rating" value="star-1" />
+                                        <label for="box2-star-1" title="1 star">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                    ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                    16</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/images/home/popular_card_img_03.jpg" alt="Image">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Popular Shop dispensaries</h3>
+                                <div class="card-rating">
+                                    <div class="score-desc">
+                                        <span>Shop rating:</span>
+                                        <span class="rating-number">2.0</span>
+                                    </div>
+                                    <div class="star-rating">
+                                        <input id="box3-star-5" type="radio" name="rating" value="star-5" />
+                                        <label for="box3-star-5" title="5 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box3-star-4" type="radio" name="rating" value="star-4" />
+                                        <label for="box3-star-4" title="4 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box3-star-3" type="radio" name="rating" value="star-3" />
+                                        <label for="box3-star-3" title="3 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box3-star-2" type="radio" name="rating" value="star-2" />
+                                        <label for="box3-star-2" title="2 stars">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box3-star-1" type="radio" name="rating" value="star-1" />
+                                        <label for="box3-star-1" title="1 star">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                    ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                    16</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/images/home/popular_card_img_04.jpg" alt="Image">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Popular Shop dispensaries</h3>
+                                <div class="card-rating">
+                                    <div class="score-desc">
+                                        <span>Shop rating:</span>
+                                        <span class="rating-number">2.0</span>
+                                    </div>
+                                    <div class="star-rating">
+                                        <input id="box4-star-5" type="radio" name="rating" value="star-5" />
+                                        <label for="box4-star-5" title="5 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box4-star-4" type="radio" name="rating" value="star-4" />
+                                        <label for="box4-star-4" title="4 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box4-star-3" type="radio" name="rating" value="star-3" />
+                                        <label for="box4-star-3" title="3 stars">
+                                            <i class="bi bi-star-fill"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box4-star-2" type="radio" name="rating" value="star-2" />
+                                        <label for="box4-star-2" title="2 stars">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                        <input id="box4-star-1" type="radio" name="rating" value="star-1" />
+                                        <label for="box4-star-1" title="1 star">
+                                            <i class="bi bi-star-fill active"></i>
+											<i class="bi bi-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                    ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                    16</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Pagination -->
+				<nav aria-label="Page navigation">
+					<ul class="pagination">
+						<li class="page-item active" aria-current="page">
+							<a class="page-link" href="#"><i class="bi bi-caret-left-fill"></i></a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">1</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">2</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">3</a>
+						</li>
+						<li class="page-item disabled">
+							<a class="page-link" href="#">...</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">6</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">7</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#"><i class="bi bi-caret-right-fill"></i></a>
+						</li>
+						
+					</ul>
+				</nav>
             </div>
         </section>
 

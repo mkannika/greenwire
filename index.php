@@ -395,7 +395,47 @@
         </section>
 
         <section id="shop-location" class="shop-location">
+            <div class="container">
+                <div class="col-md-3">
+                    <div class="filter-header">
+                        <div class="filter-by-type btn-filter">
+                            <button class="btn active filter-button" data-filter="all">All</button>
+                            <button class="btn filter-button" data-filter="pickup">Pickup</button>
+                            <button class="btn filter-button" data-filter="delivery">Delivery</button>
+                        </div>
+                        <h3>Find a weed dispensary near you</h3>
+                    </div>
+                    <div class="filter-by-tag">
+                        <div class="btn-group">
+                            <button class="btn btn-default filter-button" data-filter="">Filters</button>
+                            <button class="btn btn-default filter-button" data-filter="">Recreational</button>
+                            <button class="btn btn-default filter-button" data-filter="">Medical</button>
+                            <button class="btn btn-default filter-button" data-filter="">Open now</button>
+                            <button class="btn btn-default filter-button" data-filter="">Pre-order</button>
+                            <button class="btn btn-default filter-button" data-filter="">CBD & Delta</button>
+                        </div>
+						<div class="d-flex justify-content-between">
+							<div class="filter-result">
+								<span id="found-result">308</span>
+								<span>results</span>
+							</div>
+							<div class="sort">
+								<div class="form-group">
+									<label for="sort-select">Sort by</label>
+									<select id="sort-select" class="form-control" name="sort">
+										<option>Recommended</option>
+										<option>Lowest Price</option>
+										<option>Highest Price</option>
+									</select>
+								</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+                <div class="col-md-9">
 
+                </div>
+            </div>
         </section>
 
     </article>

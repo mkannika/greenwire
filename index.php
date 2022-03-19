@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenwire</title>
-    <link rel="stylesheet" href="assets/libs/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="./assets/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
 
     <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/libs/swiper/swiper-bundle.min.css" />
+    <script src="./assets/libs/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -152,27 +152,27 @@
                                         <input id="box1-star-5" type="radio" name="rating" value="star-5" />
                                         <label for="box1-star-5" title="5 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box1-star-4" type="radio" name="rating" value="star-4" />
                                         <label for="box1-star-4" title="4 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box1-star-3" type="radio" name="rating" value="star-3" />
                                         <label for="box1-star-3" title="3 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box1-star-2" type="radio" name="rating" value="star-2" />
                                         <label for="box1-star-2" title="2 stars">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box1-star-1" type="radio" name="rating" value="star-1" />
                                         <label for="box1-star-1" title="1 star">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -201,27 +201,27 @@
                                         <input id="box2-star-5" type="radio" name="rating" value="star-5" />
                                         <label for="box2-star-5" title="5 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box2-star-4" type="radio" name="rating" value="star-4" />
                                         <label for="box2-star-4" title="4 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box2-star-3" type="radio" name="rating" value="star-3" />
                                         <label for="box2-star-3" title="3 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box2-star-2" type="radio" name="rating" value="star-2" />
                                         <label for="box2-star-2" title="2 stars">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box2-star-1" type="radio" name="rating" value="star-1" />
                                         <label for="box2-star-1" title="1 star">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -250,27 +250,27 @@
                                         <input id="box3-star-5" type="radio" name="rating" value="star-5" />
                                         <label for="box3-star-5" title="5 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box3-star-4" type="radio" name="rating" value="star-4" />
                                         <label for="box3-star-4" title="4 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box3-star-3" type="radio" name="rating" value="star-3" />
                                         <label for="box3-star-3" title="3 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box3-star-2" type="radio" name="rating" value="star-2" />
                                         <label for="box3-star-2" title="2 stars">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box3-star-1" type="radio" name="rating" value="star-1" />
                                         <label for="box3-star-1" title="1 star">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -299,27 +299,27 @@
                                         <input id="box4-star-5" type="radio" name="rating" value="star-5" />
                                         <label for="box4-star-5" title="5 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box4-star-4" type="radio" name="rating" value="star-4" />
                                         <label for="box4-star-4" title="4 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box4-star-3" type="radio" name="rating" value="star-3" />
                                         <label for="box4-star-3" title="3 stars">
                                             <i class="bi bi-star-fill"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box4-star-2" type="radio" name="rating" value="star-2" />
                                         <label for="box4-star-2" title="2 stars">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box4-star-1" type="radio" name="rating" value="star-1" />
                                         <label for="box4-star-1" title="1 star">
                                             <i class="bi bi-star-fill active"></i>
-											<i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -333,37 +333,69 @@
                         </div>
                     </div>
                 </div>
-				<!-- Pagination -->
-				<nav aria-label="Page navigation">
-					<ul class="pagination">
-						<li class="page-item active" aria-current="page">
-							<a class="page-link" href="#"><i class="bi bi-caret-left-fill"></i></a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">1</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">2</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">3</a>
-						</li>
-						<li class="page-item disabled">
-							<a class="page-link" href="#">...</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">6</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">7</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#"><i class="bi bi-caret-right-fill"></i></a>
-						</li>
-						
-					</ul>
-				</nav>
+                <!-- Pagination -->
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li cl ass="page-item active" aria-current="page">
+                            <a class="page-link" href="#"><i class="bi bi-caret-left-fill"></i></a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">...</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">6</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">7</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#"><i class="bi bi-caret-right-fill"></i></a>
+                        </li>
+
+                    </ul>
+                </nav>
             </div>
+        </section>
+
+        <section id="subscribe" class="section-subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="icon-leaf"><img src="./assets/images/home/leaf.svg" alt="Leaf"></span>
+                                <h3 class="card-title">What’s hot product</h3>
+                                <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                    มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+                                <div class="input-group">
+                                    <input class="form-control" type="email" name="" placeholder="email@address.com"
+                                        aria-label="email@address.com" aria-describedby="my-addon">
+                                    <button class="btn btn-primary">
+                                        Submit
+                                    </button>
+                                </div>
+                                <p class="desc">By providing us with your email address, you agree to Leafly's Terms of
+                                    Service and Privacy Policy. Offer valid for new Leafly subscribers. Available to US
+                                    residents only, valid only where legal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-hot d-none d-md-block"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop-location" class="shop-location">
+
         </section>
 
     </article>

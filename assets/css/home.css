@@ -83,6 +83,26 @@ section.section-popular {
   padding-top: var(--space);
   padding-bottom: var(--space);
 }
+section.section-subscribe .product-hot {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+section.section-subscribe .product-hot:before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
 
 .star-rating {
   direction: rtl;

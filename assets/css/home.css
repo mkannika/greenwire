@@ -86,6 +86,19 @@ section .btn-primary:hover {
   background-color: #00423E;
   border-color: #00423E;
 }
+section .btn {
+  font-size: 13px !important;
+}
+section .btn-outline {
+  border: 2px solid #fff;
+}
+section .btn-outline:hover {
+  background-color: #fff;
+  color: #3E9E6C !important;
+}
+section .badge-primary {
+  border: 2px solid #d0d0d0;
+}
 section.section-intro {
   background-color: #FFFAF2;
   padding-top: var(--space);
@@ -113,16 +126,80 @@ section.section-intro .filter-select .form-control {
   }
 }
 section.section-intro .swiper {
-  width: 600px;
-  height: 300px;
+  width: calc(100% - 5px);
+  min-height: 500px;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-right: 0;
 }
-section.section-intro .card {
+section.section-intro .swiper-wrapper, section.section-intro .swiper-slide {
+  height: 100%;
+  position: relative;
+}
+section.section-intro .swiper-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+section.section-intro .swiper-img img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+section.section-intro .swiper-button-prev, section.section-intro .swiper-button-next {
+  background-color: #00423E;
+  width: 50px;
+  height: 50px;
+  border-radius: 0.25rem;
+  top: auto;
+  bottom: 30px;
+  left: auto;
+  transition: all 0.15s ease-in-out;
+}
+section.section-intro .swiper-button-prev:hover, section.section-intro .swiper-button-next:hover {
+  background-color: #3E9E6C;
+}
+section.section-intro .swiper-button-prev:after, section.section-intro .swiper-button-next:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+section.section-intro .swiper-button-prev {
+  right: 410px;
+}
+section.section-intro .swiper-button-prev:after {
+  content: "";
+  border-style: solid;
+  border-width: 5px 10px 5px 0;
+  border-color: transparent #3FDD6E transparent transparent;
+}
+section.section-intro .swiper-button-next {
+  right: 350px;
+}
+section.section-intro .swiper-button-next::after {
+  content: "";
+  border-style: solid;
+  border-width: 5px 0 5px 10px;
+  border-color: transparent transparent transparent #3FDD6E;
+}
+section.section-intro .section-slide-1 .card {
   background-color: #00423E;
   color: #fff;
   border: none;
   text-align: left;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
-section.section-intro .card .icon-leaf {
+section.section-intro .section-slide-1 .card .icon-leaf {
   padding: 20px 20px 0 0;
   display: flex;
   justify-content: flex-end;
@@ -130,36 +207,156 @@ section.section-intro .card .icon-leaf {
   width: 100%;
   right: 0;
 }
-section.section-intro .card-body {
+section.section-intro .section-slide-1 .card-body {
   padding: 1.5rem 2.5rem 2.5rem;
 }
-section.section-intro .card-title {
+section.section-intro .section-slide-1 .card-title {
   min-height: 60px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 1rem;
 }
-section.section-intro .card-img {
+section.section-intro .section-slide-1 .card-img {
   border: none;
 }
-section.section-intro .card .btn-primary {
+section.section-intro .section-slide-1 .card .btn-primary {
   margin-top: 2rem;
   font-family: "Basier Circle Medium";
+}
+section.section-intro .section-slide-1 .swiper-content {
+  z-index: 1;
+  max-width: 320px;
+  text-align: left;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.48);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  position: relative;
+}
+section.section-intro .section-slide-1 .swiper-content .recommend {
+  background-color: #00423E;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 10px;
+  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-percent, section.section-intro .section-slide-1 .swiper-content .product-details-tags {
+  color: #000000;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-percent {
+  margin-bottom: 1.5rem;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-percent ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 180px;
+  grid-template-columns: 1fr 1fr;
+  white-space: nowrap;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-percent ul img {
+  margin-right: 0.25rem;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-percent ul li + li {
+  margin-left: 0.5rem;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-tags .btn {
+  padding: 15px;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-tags img {
+  margin-right: 0.25rem;
+}
+section.section-intro .section-slide-1 .swiper-content .product-details-tags span + span {
+  margin-left: 0.5rem;
+}
+section.section-intro .section-slide-1 .swiper-content .btn-learn-more {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto 0;
+  padding: 15px;
+  font-family: "Basier Circle Medium";
+}
+section.section-intro .section-slide-2 {
+  margin-top: 5px;
+}
+section.section-intro .section-slide-2 .card {
+  background-color: #3E9E6C;
+  color: #fff;
+  border: none;
+  text-align: left;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  color: #fff;
+}
+section.section-intro .section-slide-2 .card-body {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.section-intro .section-slide-2 .card-title {
+  color: #fff;
+  margin-bottom: 0;
+}
+section.section-intro .section-slide-2 .card-text {
+  margin: 1.5rem 0;
+}
+section.section-intro .section-slide-2 .card .btn {
+  width: 100%;
+  max-width: 200px;
+  padding: 15px;
+  font-family: "Basier Circle Medium";
+  border-radius: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+section.section-intro .section-slide-2 .swiper {
+  height: 350px;
+  min-height: auto;
+}
+section.section-intro .section-slide-2 .swiper-content {
+  height: 100%;
+  margin-left: auto;
+}
+section.section-intro .section-slide-2 .swiper-button-next {
+  right: calc(33.33333333% + 30px);
+}
+section.section-intro .section-slide-2 .swiper-button-prev {
+  right: calc(33.33333333% + 90px);
 }
 section.section-popular {
   background-color: #FFF3E0;
   padding-top: var(--space);
   padding-bottom: var(--space);
 }
-.star-rating {
+.card-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 1rem 0;
+  margin: 1.5rem 0;
+  color: #3E9E6C;
+}
+.card-rating .star-rating {
   direction: rtl;
   display: inline-block;
-  padding: 20px;
   cursor: default;
 }
-.star-rating input[type=radio] {
+.card-rating .star-rating input[type=radio] {
   display: none;
 }
-.star-rating label {
+.card-rating .star-rating label {
   color: #3E9E6C;
   font-size: 18px;
   padding: 0;
@@ -167,23 +364,23 @@ section.section-popular {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.star-rating label .bi-star-fill {
+.card-rating .star-rating label .bi-star-fill {
   position: absolute;
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.star-rating label .bi-star-fill.active {
+.card-rating .star-rating label .bi-star-fill.active {
   opacity: 1;
 }
-.star-rating label:hover,
-.star-rating label:hover ~ label,
-.star-rating input[type=radio]:checked ~ label {
+.card-rating .star-rating label:hover,
+.card-rating .star-rating label:hover ~ label,
+.card-rating .star-rating input[type=radio]:checked ~ label {
   color: #3E9E6C;
 }
-.star-rating label:hover .bi-star-fill,
-.star-rating label:hover ~ label .bi-star-fill,
-.star-rating input[type=radio]:checked ~ label .bi-star-fill {
+.card-rating .star-rating label:hover .bi-star-fill,
+.card-rating .star-rating label:hover ~ label .bi-star-fill,
+.card-rating .star-rating input[type=radio]:checked ~ label .bi-star-fill {
   opacity: 1;
 }
 

@@ -51,10 +51,10 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
 
-                <div class="section-hot d-flex">
+                <div class="section-slide-1 d-flex">
                     <div class="col-4">
                         <div class="card">
-						<span class="icon-leaf"><img src="./assets/images/home/leaf.svg" alt="Leaf"></span>
+                            <span class="icon-leaf"><img src="./assets/images/home/leaf.svg" alt="Leaf"></span>
                             <div class="card-body">
                                 <h3 class="card-title">What’s hot!</h3>
                                 <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
@@ -70,58 +70,170 @@
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                <div class="swiper-slide">Slide 1</div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
-                                ...
+                                <div class="swiper-slide">
+									<div class="swiper-img"><img src="./assets/images/home/slide_01.jpg" alt="Image"></div>
+                                    <div class="swiper-content">
+                                        <div class="swiper-header">
+                                            <div class="recommend">Recommend<i class="bi bi-star-fill"></i></div>
+                                            <h2>Cannabis</h2>
+                                        </div>
+                                        <div class="swiper-footer">
+                                            <div class="product-details">
+                                                <h4>Dosidos</h4>
+                                            </div>
+                                            <div class="card-rating">
+                                                <div class="score-desc">
+                                                    <span>Shop rating:</span>
+                                                    <span class="rating-number">2.0</span>
+                                                </div>
+                                                <div class="star-rating">
+                                                    <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                                    <label for="box1-star-5" title="5 stars">
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                                    <label for="box1-star-4" title="4 stars">
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                                    <label for="box1-star-3" title="3 stars">
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                                    <label for="box1-star-2" title="2 stars">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                                    <label for="box1-star-1" title="1 star">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="product-details-percent d-flex justify-content-between align-items-center">
+                                                <div class="btn btn-outline">Indica</div>
+                                                <ul class="d-grid">
+                                                    <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
+													<li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-details-tags d-flex flex-wrap">
+                                                <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
+                                                <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
+                                            </div>
+											<a href="" class="btn btn-primary btn-learn-more">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="swiper-slide">
+									<div class="swiper-img"><img src="./assets/images/home/popular_card_img_01.jpg" alt="Image"></div>
+                                    <div class="swiper-content">
+                                        <div class="swiper-header">
+                                            <div class="recommend">Recommend<i class="bi bi-star-fill"></i></div>
+                                            <h2>Cannabis</h2>
+                                        </div>
+                                        <div class="swiper-footer">
+                                            <div class="product-details">
+                                                <h4>Dosidos</h4>
+                                            </div>
+                                            <div class="card-rating">
+                                                <div class="score-desc">
+                                                    <span>Shop rating:</span>
+                                                    <span class="rating-number">4.0</span>
+                                                </div>
+                                                <div class="star-rating">
+                                                    <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                                    <label for="box1-star-5" title="5 stars">
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                                    <label for="box1-star-4" title="4 stars">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                                    <label for="box1-star-3" title="3 stars">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                                    <label for="box1-star-2" title="2 stars">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                                    <label for="box1-star-1" title="1 star">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="product-details-percent d-flex justify-content-between align-items-center">
+                                                <div class="btn btn-outline">Indica</div>
+                                                <ul class="d-grid">
+                                                    <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
+													<li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-details-tags d-flex flex-wrap">
+                                                <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
+                                                <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
+                                            </div>
+											<a href="" class="btn btn-primary btn-learn-more">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!-- If we need pagination -->
-                            <div class="swiper-pagination"></div>
+                            <!-- <div class="swiper-pagination"></div> -->
 
                             <!-- If we need navigation buttons -->
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
 
                             <!-- If we need scrollbar -->
-                            <div class="swiper-scrollbar"></div>
+                            <!-- <div class="swiper-scrollbar"></div> -->
                         </div>
                     </div>
                 </div>
 
-                <div class="section-learn-more d-flex">
-                    <div class="col-4 order-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">Cannabis 101</h3>
-                                <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
-                                    มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
-                                <a href="" class="btn btn-outline">Learn More</a>
-                            </div>
-                            <div class="card-img"><img src="./assets/images/home/card_img_01.png" alt="Image"></div>
-                        </div>
-                    </div>
-                    <div class="col-8 order-1">
-                        <!-- Slider main container -->
-                        <div class="swiper">
-                            <!-- Additional required wrapper -->
-                            <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <div class="swiper-slide">Slide 1</div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
-                                ...
-                            </div>
-                            <!-- If we need pagination -->
-                            <div class="swiper-pagination"></div>
+                <div class="section-slide-2">
+					<!-- Slider main container -->
+					<div class="swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<div class="col-4 swiper-content">
+									<div class="card">
+										<div class="card-body">
+											<h3 class="card-title">Cannabis 101</h3>
+											<p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+												มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+											<a href="" class="btn btn-outline">Learn More</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-8">
+									<div class="swiper-img"><img src="./assets/images/home/slide_02.jpg" alt="Slide"></div>
+								</div>
+							</div>
+						</div>
+						<!-- If we need pagination -->
+						<!-- <div class="swiper-pagination"></div> -->
 
-                            <!-- If we need navigation buttons -->
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
+						<!-- If we need navigation buttons -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
 
-                            <!-- If we need scrollbar -->
-                            <div class="swiper-scrollbar"></div>
-                        </div>
-                    </div>
+						<!-- If we need scrollbar -->
+						<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
                 </div>
             </div>
         </section>
@@ -144,7 +256,7 @@
                                 <div class="card-rating">
                                     <div class="score-desc">
                                         <span>Shop rating:</span>
-                                        <span class="rating-number">2.0</span>
+                                        <span class="rating-number">4.0</span>
                                     </div>
                                     <div class="star-rating">
                                         <input id="box1-star-5" type="radio" name="rating" value="star-5" />
@@ -154,12 +266,12 @@
                                         </label>
                                         <input id="box1-star-4" type="radio" name="rating" value="star-4" />
                                         <label for="box1-star-4" title="4 stars">
-                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill active"></i>
                                             <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box1-star-3" type="radio" name="rating" value="star-3" />
                                         <label for="box1-star-3" title="3 stars">
-                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill active"></i>
                                             <i class="bi bi-star"></i>
                                         </label>
                                         <input id="box1-star-2" type="radio" name="rating" value="star-2" />

@@ -213,8 +213,7 @@
 									<div class="card">
 										<div class="card-body">
 											<h3 class="card-title">Cannabis 101</h3>
-											<p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
-												มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+											<p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
 											<a href="" class="btn btn-outline">Learn More</a>
 										</div>
 									</div>
@@ -240,10 +239,9 @@
 
         <section id="popular" class="section-popular text-center">
             <div class="container">
-                <div class="lead-main">
-                    <h1>Popular Shop dispensaries</h1>
-                    <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
-                        มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+                <div class="lead-main text-start">
+                    <h2>Popular Shop dispensaries</h2>
+                    <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                 </div>
                 <div class="row">
                     <div class="col-6 col-md-6 col-xl-3">
@@ -252,7 +250,7 @@
                                 <img src="./assets/images/home/popular_card_img_01.jpg" alt="Image">
                             </div>
                             <div class="card-body">
-                                <h3 class="card-title">Popular Shop dispensaries</h3>
+                                <h4 class="card-title">Popular Shop dispensaries</h4>
                                 <div class="card-rating">
                                     <div class="score-desc">
                                         <span>Shop rating:</span>
@@ -301,7 +299,7 @@
                                 <img src="./assets/images/home/popular_card_img_02.jpg" alt="Image">
                             </div>
                             <div class="card-body">
-                                <h3 class="card-title">Popular Shop dispensaries</h3>
+								<h4 class="card-title">Popular Shop dispensaries</h4>
                                 <div class="card-rating">
                                     <div class="score-desc">
                                         <span>Shop rating:</span>
@@ -350,7 +348,7 @@
                                 <img src="./assets/images/home/popular_card_img_03.jpg" alt="Image">
                             </div>
                             <div class="card-body">
-                                <h3 class="card-title">Popular Shop dispensaries</h3>
+								<h4 class="card-title">Popular Shop dispensaries</h4>
                                 <div class="card-rating">
                                     <div class="score-desc">
                                         <span>Shop rating:</span>
@@ -399,7 +397,7 @@
                                 <img src="./assets/images/home/popular_card_img_04.jpg" alt="Image">
                             </div>
                             <div class="card-body">
-                                <h3 class="card-title">Popular Shop dispensaries</h3>
+								<h4 class="card-title">Popular Shop dispensaries</h4>
                                 <div class="card-rating">
                                     <div class="score-desc">
                                         <span>Shop rating:</span>

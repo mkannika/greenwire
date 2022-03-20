@@ -44,19 +44,38 @@ section {
 		}
 	}
 
-	.btn{
-		font-size: 13px!important;
+	.btn {
+		font-size: 13px !important;
 	}
 
 	.btn-outline {
 		border: 2px solid $color-white;
-		&:hover{
+		&:hover {
 			background-color: $color-white;
-			color: $color-green!important;
+			color: $color-green !important;
 		}
 	}
 	.badge-primary {
 		border: 2px solid #d0d0d0;
+	}
+
+	.pagination {
+		.page-link {
+			color: #f7c67f;
+			background-color: transparent;
+			border-color: transparent;
+			&:hover {
+				border-color: $color-green-dark;
+				border-radius: 0.25rem;
+			}
+		}
+		.disabled {
+			.page-link {
+				color: #f7c67f;
+				background-color: transparent;
+				border-color: transparent;
+			}
+		}
 	}
 
 	&.section-intro {
@@ -203,6 +222,13 @@ section {
 					justify-content: space-between;
 					margin-left: auto;
 					position: relative;
+					.btn-outline {
+						border-color: #d0d0d0;
+						&:hover {
+							background-color: #d0d0d0;
+							color: $color-white !important;
+						}
+					}
 					.recommend {
 						background-color: $color-green-dark;
 						color: $color-white;
@@ -301,10 +327,10 @@ section {
 					height: 100%;
 					margin-left: auto;
 				}
-				&-button-next{
+				&-button-next {
 					right: calc(33.33333333% + 30px);
 				}
-				&-button-prev{
+				&-button-prev {
 					right: calc(33.33333333% + 90px);
 				}
 			}
@@ -314,6 +340,43 @@ section {
 		background-color: $yellow;
 		padding-top: var(--space);
 		padding-bottom: var(--space);
+		.lead-main {
+			border-bottom: 1px solid #f3e1c4;
+			padding-bottom: calc(var(--space) / 2);
+			margin-bottom: calc(var(--space) / 2);
+			h2 {
+				margin-bottom: 1rem;
+			}
+		}
+		.card {
+			background: transparent;
+			border: none;
+			&-rating {
+				border-color: #f3e1c4;
+			}
+			&-title {
+				font-size: 18px;
+				text-align: left;
+				white-space: nowrap;
+				margin: 1rem 0 0;
+			}
+			&-body {
+				padding: 1rem 0 0;
+				text-align: left;
+			}
+			&-footer {
+				background: transparent;
+				border: none;
+				text-align: left;
+				padding: 0;
+				margin: 2rem 0 0;
+			}
+		}
+		.pagination {
+			margin-top: var(--space);
+			justify-content: center;
+			margin-bottom: 0;
+		}
 	}
 	&.section-subscribe {
 		.product-hot {

@@ -49,61 +49,107 @@
 section {
   --space: 5rem;
 }
-section h1 {
+section h1,
+section h2,
+section h3,
+section h4 {
   color: #3E9E6C;
+}
+section select {
+  position: relative;
+}
+section select:focus {
+  outline: none;
+  box-shadow: none;
+}
+section select:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #3E9E6C transparent transparent transparent;
+}
+section .btn-primary {
+  background-color: #3E9E6C;
+  border-color: #3E9E6C;
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 10px 30px;
+  min-width: 130px;
+  text-transform: uppercase;
+}
+section .btn-primary:hover {
+  background-color: #00423E;
+  border-color: #00423E;
 }
 section.section-intro {
   background-color: #FFFAF2;
   padding-top: var(--space);
   padding-bottom: var(--space);
 }
+section.section-intro form {
+  padding-bottom: var(--space);
+}
 section.section-intro .lead-main {
   max-width: 600px;
   margin: auto;
 }
-section.section-intro .filter-select .btn-primary {
-  background-color: #3E9E6C;
-  border-color: #3E9E6C;
-  border-radius: 40px;
-  font-size: 14px;
-  padding: 10px 30px;
-  width: 130px;
-  text-transform: uppercase;
+section.section-intro .filter-select .form-control {
+  border-color: #F0D8B3;
+  background-color: #FFFAF2;
+  border-radius: 60px;
+  width: 200px;
+  height: 50px;
+  padding: 10px 20px;
+  color: #3E9E6C;
 }
-section.section-intro .filter-select .btn-primary:hover {
-  background-color: #00423E;
-  border-color: #00423E;
+@media screen and (min-width: 768px) {
+  section.section-intro .filter-select .btn-primary {
+    margin-left: 1.5rem;
+  }
 }
 section.section-intro .swiper {
   width: 600px;
   height: 300px;
+}
+section.section-intro .card {
+  background-color: #00423E;
+  color: #fff;
+  border: none;
+  text-align: left;
+}
+section.section-intro .card .icon-leaf {
+  padding: 20px 20px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+section.section-intro .card-body {
+  padding: 1.5rem 2.5rem 2.5rem;
+}
+section.section-intro .card-title {
+  min-height: 60px;
+  display: flex;
+  align-items: flex-end;
+}
+section.section-intro .card-img {
+  border: none;
+}
+section.section-intro .card .btn-primary {
+  margin-top: 2rem;
+  font-family: "Basier Circle Medium";
 }
 section.section-popular {
   background-color: #FFF3E0;
   padding-top: var(--space);
   padding-bottom: var(--space);
 }
-section.section-subscribe .product-hot {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  transform: rotate(30deg);
-}
-section.section-subscribe .product-hot:before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-}
-
 .star-rating {
   direction: rtl;
   display: inline-block;

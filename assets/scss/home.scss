@@ -4,36 +4,105 @@
 section {
 	--space: 5rem;
 
-	h1 {
+	h1,
+	h2,
+	h3,
+	h4 {
 		color: $color-green;
+	}
+
+	select {
+		position: relative;
+		&:focus {
+			outline: none;
+			box-shadow: none;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			right: 8px;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 5px 5px 0 5px;
+			border-color: $color-green transparent transparent transparent;
+		}
+	}
+
+	.btn-primary {
+		background-color: $color-green;
+		border-color: $color-green;
+		border-radius: 40px;
+		font-size: 14px;
+		padding: 10px 30px;
+		min-width: 130px;
+		text-transform: uppercase;
+		&:hover {
+			background-color: $color-green-dark;
+			border-color: $color-green-dark;
+		}
 	}
 
 	&.section-intro {
 		background-color: $yellow-light;
 		padding-top: var(--space);
 		padding-bottom: var(--space);
+		form {
+			padding-bottom: var(--space);
+		}
 		.lead-main {
 			max-width: 600px;
 			margin: auto;
 		}
 		.filter-select {
+			.form-control {
+				border-color: $yellow-dark;
+				background-color: $yellow-light;
+				border-radius: 60px;
+				width: 200px;
+				height: 50px;
+				padding: 10px 20px;
+				color: $color-green;
+			}
 			.btn-primary {
-				background-color: $color-green;
-				border-color: $color-green;
-				border-radius: 40px;
-				font-size: 14px;
-				padding: 10px 30px;
-				width: 130px;
-				text-transform: uppercase;
-				&:hover {
-					background-color: $color-green-dark;
-					border-color: $color-green-dark;
+				@media screen and (min-width: 768px) {
+					margin-left: 1.5rem;
 				}
 			}
 		}
 		.swiper {
 			width: 600px;
 			height: 300px;
+		}
+		.card {
+			background-color: $color-green-dark;
+			color: $color-white;
+			border: none;
+			text-align: left;
+			.icon-leaf {
+				padding: 20px 20px 0 0;
+				display: flex;
+				justify-content: flex-end;
+				position: absolute;
+				width: 100%;
+				right: 0;
+			}
+			&-body {
+				padding: 1.5rem 2.5rem 2.5rem;
+			}
+			&-title {
+				min-height: 60px;
+				display: flex;
+				align-items: flex-end;
+			}
+			&-img {
+				border: none;
+			}
+			.btn-primary {
+				margin-top: 2rem;
+				font-family: $font-Basier-medium;
+			}
 		}
 	}
 	&.section-popular {
@@ -43,24 +112,24 @@ section {
 	}
 	&.section-subscribe {
 		.product-hot {
-			position: absolute;
-			right: 10%;
-			bottom: -30%;
-			width: 300px;
-			height: 540px;
-			background-color: #333;
-			border-radius: 21px;
-			transform: rotate(30deg);
-			&:before {
-				position: absolute;
-				top: 10%;
-				right: 10px;
-				bottom: 10%;
-				left: 10px;
-				content: "";
-				background-color: rgba(255, 255, 255, 0.1);
-				border-radius: 5px;
-			}
+			// position: absolute;
+			// right: 10%;
+			// bottom: -30%;
+			// width: 300px;
+			// height: 540px;
+			// background-color: #333;
+			// border-radius: 21px;
+			// transform: rotate(30deg);
+			// &:before {
+			// 	position: absolute;
+			// 	top: 10%;
+			// 	right: 10px;
+			// 	bottom: 10%;
+			// 	left: 10px;
+			// 	content: "";
+			// 	background-color: rgba(255, 255, 255, 0.1);
+			// 	border-radius: 5px;
+			// }
 		}
 	}
 }

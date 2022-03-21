@@ -57,6 +57,14 @@
   color: #fff;
 }
 
+.border,
+.border-end,
+.border-top,
+.border-bottom,
+.border-start {
+  border-color: #EAEAEA !important;
+}
+
 section {
   --space: 5rem;
 }
@@ -68,6 +76,14 @@ section h4 {
 }
 section h4 {
   font-size: 18px;
+}
+section a {
+  color: #3E9E6C;
+  text-decoration: underline;
+}
+section a:hover {
+  color: #3E9E6C;
+  text-decoration: none;
 }
 section select {
   position: relative;
@@ -474,13 +490,6 @@ section.section-subscribe .product-hot:before {
 section .shop-location {
   padding-top: var(--space);
 }
-section .shop-location .border,
-section .shop-location .border-end,
-section .shop-location .border-top,
-section .shop-location .border-bottom,
-section .shop-location .border-start {
-  border-color: #EAEAEA !important;
-}
 section .shop-location .btn-default {
   border-radius: 0.25rem !important;
   border: 1px solid #EAEAEA;
@@ -558,6 +567,55 @@ section .shop-location .card .btn-sale {
   background: #ce1090;
   color: #fff;
   font-size: 90%;
+}
+section .shop-location .google-map {
+  background: url("../images/home/mockup_map.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+section .shop-results .border {
+  padding: 0.5rem 1rem;
+  border-radius: 60px;
+  font-size: 80%;
+  margin-bottom: 2rem;
+}
+section .shop-results .card-img-top {
+  height: 200px;
+}
+section .shop-results .card-img-top img {
+  object-position: center;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+section .shop-results .btn-outline {
+  border-color: #3E9E6C;
+  background: transparent;
+  color: #3E9E6C;
+  text-transform: capitalize;
+  border-radius: 60px;
+  padding: 10px 30px;
+  min-width: 130px;
+  text-transform: uppercase;
+  border-width: 1px;
+}
+section .shop-results .btn-outline:hover {
+  background-color: #3E9E6C;
+  color: #fff !important;
+}
+section .shop-results .pagination {
+  padding-top: var(--space);
+  padding-bottom: var(--space);
+}
+section.section-welcome {
+  padding-top: var(--space);
+  padding-bottom: var(--space);
+}
+section.section-welcome .card-title {
+  color: #000000;
+  font-family: "Basier Circle Medium";
+  margin-bottom: 1rem;
 }
 
 .card-rating {

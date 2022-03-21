@@ -600,7 +600,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-9 px-0">
                             <div class="google-map">
                                 <!-- Google Map API -->
                             </div>
@@ -608,11 +608,12 @@
                     </div>
                     
                 </div>
-                <div id="results" class="mt-5">
+                <!-- grid Results -->
+                <div id="results" class="shop-results mt-5">
                     <h2>Great weed you can find today.</h2>
-                    <div class="place-details">
+                    <div class="place-details mt-4 mb-5">
                         <span>These are all found near</span>
-                        <a href=""><span>Los Angeles,CA</span><i><img src="./assets/images/icons/arrow_right.svg" alt="Arrow"></i></a>
+                        <a href=""><span>Los Angeles,CA</span><i class="mx-2"><img src="./assets/images/icons/arrow_right.svg" alt="Arrow"></i></a>
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-6 col-md-3">
@@ -625,7 +626,7 @@
                                     <img src="./assets/images/home/popular_card_img_01.jpg" alt="Image">
                                 </div>
                                 <div class="card-body">
-                                    <h3 class="card-title">Popular Shop dispensaries</h3>
+                                    <h4 class="card-title">Popular Shop dispensaries</h4>
                                     <div class="card-rating">
                                         <div class="score-desc">
                                             <span>Shop rating:</span>
@@ -664,7 +665,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-primary">Read more</a>
+                                    <a href="" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -678,7 +679,7 @@
                                     <img src="./assets/images/home/popular_card_img_01.jpg" alt="Image">
                                 </div>
                                 <div class="card-body">
-                                    <h3 class="card-title">Popular Shop dispensaries</h3>
+                                    <h4 class="card-title">Popular Shop dispensaries</h4>
                                     <div class="card-rating">
                                         <div class="score-desc">
                                             <span>Shop rating:</span>
@@ -717,7 +718,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-primary">Read more</a>
+                                    <a href="" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -731,7 +732,7 @@
                                     <img src="./assets/images/home/popular_card_img_01.jpg" alt="Image">
                                 </div>
                                 <div class="card-body">
-                                    <h3 class="card-title">Popular Shop dispensaries</h3>
+                                    <h4 class="card-title">Popular Shop dispensaries</h4>
                                     <div class="card-rating">
                                         <div class="score-desc">
                                             <span>Shop rating:</span>
@@ -770,7 +771,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-primary">Read more</a>
+                                    <a href="" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -784,7 +785,7 @@
                                     <img src="./assets/images/home/popular_card_img_01.jpg" alt="Image">
                                 </div>
                                 <div class="card-body">
-                                    <h3 class="card-title">Popular Shop dispensaries</h3>
+                                    <h4 class="card-title">Popular Shop dispensaries</h4>
                                     <div class="card-rating">
                                         <div class="score-desc">
                                             <span>Shop rating:</span>
@@ -823,7 +824,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-primary">Read more</a>
+                                    <a href="" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -861,37 +862,40 @@
                 </div>
             </div>
 
-            <!-- Welcome -->
-            <div id="welcome" class="section-welcome">
-                <div class="container">
+        </section>
+
+         <!-- Welcome -->
+         <section id="welcome" class="section-welcome border-top">
+            <div class="container">
+                <div class="text-center mb-4">
                     <h2>Welcome to Greenwire</h2>
                     <p>A great place to discover cannabis.</p>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">A weed community</h3>
-                                    <p class="card-text">11,000+ articles. 5,000+ strains. 1.3mm+ reviews. Legalization
-                                        advocates with a social justice and equity mindset.</p>
-                                </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">A weed community</h4>
+                                <p class="card-text">11,000+ articles. 5,000+ strains. 1.3mm+ reviews. Legalization
+                                    advocates with a social justice and equity mindset.</p>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">Making life easy</h3>
-                                    <p class="card-text">Shop by strain, price, deals, dispensary, location, brand,
-                                        star-rating, or vibes. Find the best legal weed near you.</p>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Making life easy</h4>
+                                <p class="card-text">Shop by strain, price, deals, dispensary, location, brand,
+                                    star-rating, or vibes. Find the best legal weed near you.</p>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">Buy local, everywhere</h3>
-                                    <p class="card-text">Find the neighborhood dispensaries wherever you are. Place a
-                                        free online order, pay when you get it.</p>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Buy local, everywhere</h4>
+                                <p class="card-text">Find the neighborhood dispensaries wherever you are. Place a
+                                    free online order, pay when you get it.</p>
                             </div>
                         </div>
                     </div>

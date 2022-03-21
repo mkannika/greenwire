@@ -57,3 +57,4 @@
 		</div>
 	</div>
 </footer>
+<?php include 'footer_bottom.php'; ?>

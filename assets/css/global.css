@@ -47,7 +47,7 @@
   font-display: swap;
 }
 body {
-  font-family: "Basier Circle Regular";
+  font-family: "Basier Circle Regular", SF Thonburi Regular;
   color: #636363;
 }
 
@@ -58,12 +58,12 @@ body {
 }
 
 a {
-  font-family: "Basier Circle Regular";
+  font-family: "Basier Circle Regular", SF Thonburi Regular;
   text-decoration: none;
 }
 
 p {
-  font-family: "Basier Circle Regular";
+  font-family: "Basier Circle Regular", SF Thonburi Regular;
   margin: 0;
 }
 
@@ -139,6 +139,7 @@ header .nav-top .user_profile .user_address p img {
 }
 header .nav-bottom {
   height: 75px;
+  background: #fff;
   border-bottom: 1px solid #EAEAEA;
 }
 header .nav-bottom .hamburger-menu {

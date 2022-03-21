@@ -46,6 +46,16 @@
   font-style: normal;
   font-display: swap;
 }
+.input-group > .form-control:focus,
+.input-group > .form-select:focus {
+  outline: 0 !important;
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: #fff;
+}
+
 section {
   --space: 5rem;
 }
@@ -55,12 +65,11 @@ section h3,
 section h4 {
   color: #3E9E6C;
 }
+section h4 {
+  font-size: 18px;
+}
 section select {
   position: relative;
-}
-section select:focus {
-  outline: none;
-  box-shadow: none;
 }
 section select:after {
   content: "";
@@ -99,6 +108,10 @@ section .btn-outline:hover {
 section .badge-primary {
   border: 2px solid #d0d0d0;
 }
+section .pagination {
+  justify-content: center;
+  margin-bottom: 0;
+}
 section .pagination .page-link {
   color: #f7c67f;
   background-color: transparent;
@@ -112,6 +125,29 @@ section .pagination .disabled .page-link {
   color: #f7c67f;
   background-color: transparent;
   border-color: transparent;
+}
+section .card {
+  background: transparent;
+  border: none;
+}
+section .card-rating {
+  border-color: inherit;
+}
+section .card-title {
+  text-align: left;
+  white-space: nowrap;
+  margin: 1rem 0 0;
+}
+section .card-body {
+  padding: 1rem 0 0;
+  text-align: left;
+}
+section .card-footer {
+  background: transparent;
+  border: none;
+  text-align: left;
+  padding: 0;
+  margin: 2rem 0 0;
 }
 section.section-intro {
   background-color: #FFFAF2;
@@ -374,28 +410,67 @@ section.section-popular .card {
 section.section-popular .card-rating {
   border-color: #f3e1c4;
 }
-section.section-popular .card-title {
-  font-size: 18px;
-  text-align: left;
-  white-space: nowrap;
-  margin: 1rem 0 0;
-}
-section.section-popular .card-body {
-  padding: 1rem 0 0;
-  text-align: left;
-}
-section.section-popular .card-footer {
-  background: transparent;
-  border: none;
-  text-align: left;
-  padding: 0;
-  margin: 2rem 0 0;
-}
 section.section-popular .pagination {
   margin-top: var(--space);
-  justify-content: center;
-  margin-bottom: 0;
 }
+section.section-subscribe {
+  background-color: #00423E;
+  color: #fff;
+  position: relative;
+  min-height: 400px;
+}
+section.section-subscribe .icon-leaf {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+section.section-subscribe .card {
+  padding: 4rem 0;
+  max-width: 430px;
+}
+section.section-subscribe .card-title {
+  margin: 0 0 1.5rem;
+}
+section.section-subscribe .card-body {
+  padding: 0;
+}
+section.section-subscribe .input-group {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+section.section-subscribe .input-group input {
+  background-color: transparent;
+  color: #fff;
+  border-color: #007871;
+  height: 60px;
+  border-radius: 0.5rem;
+}
+section.section-subscribe .input-group .btn-primary {
+  border-radius: 0.5rem;
+  margin-left: -10px;
+}
+section.section-subscribe .input-group .btn-primary:hover {
+  background-color: #007871;
+  border: 1px solid #007871;
+}
+section.section-subscribe .product-hot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+}
+section.section-subscribe .product-hot:before {
+  content: "";
+  position: absolute;
+  background: url("../images/home/subscribe_img_01.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  right: 0;
+  top: 0;
+}
+
 .card-rating {
   display: flex;
   justify-content: space-between;

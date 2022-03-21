@@ -477,11 +477,11 @@
         <section id="subscribe" class="section-subscribe">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6 position-relative">
+                        <span class="icon-leaf"><img src="./assets/images/home/leaf.svg" alt="Leaf"></span>
                         <div class="card">
                             <div class="card-body">
-                                <span class="icon-leaf"><img src="./assets/images/home/leaf.svg" alt="Leaf"></span>
-                                <h3 class="card-title">What’s hot product</h3>
+                                <h2 class="card-title">What’s hot product</h2>
                                 <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
                                     มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                 <div class="input-group">

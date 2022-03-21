@@ -47,7 +47,8 @@
   font-display: swap;
 }
 .input-group > .form-control:focus,
-.input-group > .form-select:focus {
+.input-group > .form-select:focus,
+.btn:focus {
   outline: 0 !important;
   box-shadow: none;
 }
@@ -469,6 +470,94 @@ section.section-subscribe .product-hot:before {
   background-size: cover;
   right: 0;
   top: 0;
+}
+section .shop-location {
+  padding-top: var(--space);
+}
+section .shop-location .border,
+section .shop-location .border-end,
+section .shop-location .border-top,
+section .shop-location .border-bottom,
+section .shop-location .border-start {
+  border-color: #EAEAEA !important;
+}
+section .shop-location .btn-default {
+  border-radius: 0.25rem !important;
+  border: 1px solid #EAEAEA;
+  color: #3E9E6C;
+  margin-bottom: 1rem;
+  padding: 5px 7px;
+}
+section .shop-location .filter-header {
+  font-size: 16px;
+  font-family: "Basier Circle Medium";
+}
+section .shop-location .filter-header .btn-filter {
+  margin-bottom: 1rem;
+}
+section .shop-location .filter-header .btn-filter .btn {
+  color: #3E9E6C;
+  border-radius: 60px;
+  padding: 8px 16px;
+  min-width: 50px;
+}
+section .shop-location .filter-header .btn-filter .btn.active, section .shop-location .filter-header .btn-filter .btn:hover {
+  background: #00423e;
+}
+section .shop-location .filter-header h3 {
+  font-size: 16px;
+  font-family: "Basier Circle Medium";
+}
+section .shop-location .filter-by-tag .btn-group {
+  padding: 1rem;
+  font-family: "Basier Circle Medium";
+}
+section .shop-location .filter-result,
+section .shop-location .sort,
+section .shop-location .form-control {
+  font-size: 90%;
+}
+section .shop-location .form-control {
+  padding: 0;
+  border: none;
+  margin-left: 10px;
+}
+section .shop-location label {
+  white-space: nowrap;
+}
+section .shop-location .card {
+  font-size: 90%;
+}
+section .shop-location .card-img-top {
+  height: 100px;
+  overflow: hidden;
+}
+section .shop-location .card-img-top img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+section .shop-location .card-status {
+  font-size: 85%;
+  display: flex;
+  align-items: center;
+}
+section .shop-location .card-status .close {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #c70909;
+  display: inline-block;
+  margin-right: 5px;
+}
+section .shop-location .card-footer {
+  font-size: 90%;
+}
+section .shop-location .card .btn-sale {
+  background: #ce1090;
+  color: #fff;
+  font-size: 90%;
 }
 
 .card-rating {

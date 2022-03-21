@@ -2,7 +2,8 @@
 @import "assets/fonts";
 
 .input-group > .form-control:focus,
-.input-group > .form-select:focus {
+.input-group > .form-select:focus,
+.btn:focus {
 	outline: 0 !important;
 	box-shadow: none;
 }
@@ -453,6 +454,101 @@ section {
 				top: 0;
 			}
 		}
+	}
+	.shop-location {
+		padding-top: var(--space);
+		.border,
+		.border-end,
+		.border-top,
+		.border-bottom,
+		.border-start {
+			border-color: $color-grey !important;
+		}
+		.btn-default {
+			border-radius: 0.25rem !important;
+			border: 1px solid $color-grey;
+			color: $color-green;
+			margin-bottom: 1rem;
+			padding: 5px 7px;
+		}
+		.filter-header {
+			font-size: 16px;
+			font-family: $font-Basier-medium;
+			.btn-filter {
+				margin-bottom: 1rem;
+				.btn {
+					color: $color-green;
+					border-radius: 60px;
+					padding: 8px 16px;
+					min-width: 50px;
+					&.active,
+					&:hover {
+						background: #00423e;
+					}
+				}
+			}
+			h3 {
+				font-size: 16px;
+				font-family: $font-Basier-medium;
+			}
+		}
+		.filter-by-tag {
+			.btn-group {
+				padding: 1rem;
+				font-family: $font-Basier-medium;
+			}
+		}
+		.filter-result,
+		.sort,
+		.form-control {
+			font-size: 90%;
+		}
+		.form-control {
+			padding: 0;
+			border: none;
+			margin-left: 10px;
+		}
+		label {
+			white-space: nowrap;
+		}
+
+		.card {
+			font-size: 90%;
+			&-img-top {
+				height: 100px;
+				overflow: hidden;
+				img {
+					object-fit: cover;
+					width: 100%;
+					height: 100%;
+					object-position: center;
+				}
+			}
+			&-status {
+				font-size: 85%;
+				display: flex;
+				align-items: center;
+				.close {
+					width: 10px;
+					height: 10px;
+					border-radius: 10px;
+					background-color: #c70909;
+					display: inline-block;
+					margin-right: 5px;
+				}
+			}
+			&-footer{
+				font-size: 90%;
+			}
+
+			.btn-sale {
+				background: #ce1090;
+				color: $color-white;
+				font-size: 90%;
+			}
+		}
+
+		// padding-bottom: var(--space);
 	}
 }
 

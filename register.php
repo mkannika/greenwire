@@ -17,7 +17,23 @@
 				<div class="row">
 					<div class="col col-group">
 						<div class="row">
-							<div class="col-md-6"></div>
+							<div class="col-md-6">
+								<h1>สมัครสมาชิก</h1>
+								<p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-md-6">
+								<div class="choose-image">
+									<img src="assets/images/avatar.svg" alt="avatar">
+									<div class="choose-image-group">
+										<div class="choose-btn">เลือกรูป</div>
+										<p>ขนาดไฟล์: สูงสุด 1 MB</p>
+										<p>ไฟล์ที่รองรับ: .JPEG, .PNG</p>
+										<input type="file" name="profile" id="profile">
+									</div>
+								</div>
+							</div>
 							<div class="col-md-6"></div>
 						</div>
 					</div>
@@ -26,5 +42,6 @@
 		</section>
 	</article>
 	<?php include 'elements/footer.php'; ?>
+	<script src="assets/js/register.js"></script>
 </body>
 </html>

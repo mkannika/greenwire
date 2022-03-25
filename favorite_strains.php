@@ -15,12 +15,33 @@
 		<section class="section-profile">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3"></div>
-					<div class="col-md-9"></div>
+					<div class="col"></div>
+					<div class="col">
+						<div class="box-upload d-flex align-items-center">
+							<img src="assets/images/profile-demo.png" alt="profile image">
+							<div class="box-btn d-flex align-items-center">
+								<div class="choose-btn d-flex align-items-center justify-content-center">เลือกรูป</div>
+								<div class="box-text">
+									<p>ขนาดไฟล์: สูงสุด 1 MB</p>
+									<p>ไฟล์ที่รองรับ: .JPEG, .PNG</p>
+								</div>
+								<input type="file" name="profile" id="profile">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<?php include 'elements/profile_menu.php'; ?>
+					</div>
+					<div class="col col-content">
+						<h1>Favorite strains</h1>
+					</div>
 				</div>
 			</div>
 		</section>
 	</article>
 	<?php include 'elements/footer.php'; ?>
+	<script src="assets/js/favorite_strains.js"></script>
 </body>
 </html>

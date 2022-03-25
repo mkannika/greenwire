@@ -96,5 +96,100 @@ article .section-profile .col-content h1 {
   color: #3E9E6C;
   margin-bottom: 24px;
 }
+article .section-profile .col-content .box-img {
+  height: 189px;
+  margin-bottom: 33px;
+  border: 1px solid #EAEAEA;
+}
+article .section-profile .col-content .box-img .wishlist {
+  padding: 12px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  cursor: pointer;
+}
+article .section-profile .col-content .box-text h2 {
+  font-family: "Basier Circle Medium";
+  font-size: 16px;
+  color: #3E9E6C;
+}
+article .section-profile .col-content .box-text .rating {
+  padding: 10px 0;
+  margin: 14px 0 12px 0;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+article .section-profile .col-content .box-text .rating p {
+  font-size: 12px;
+  color: #3E9E6C;
+}
+article .section-profile .col-content .box-text .meta-product .type {
+  font-size: 10px;
+  color: #000000;
+  max-width: 100%;
+  height: 20px;
+  padding: 4px 9px;
+  background: #EAEAEA;
+  border-radius: 3px;
+  display: inline-flex;
+}
+article .section-profile .col-content .box-text .meta-product .thc,
+article .section-profile .col-content .box-text .meta-product .cbg {
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+}
+article .section-profile .col-content .box-text .meta-product .thc img,
+article .section-profile .col-content .box-text .meta-product .cbg img {
+  margin-right: 7px;
+}
+article .section-profile .col-content .box-text .feature {
+  margin: 13px -4px 20px -4px;
+}
+article .section-profile .col-content .box-text .feature .col-6 {
+  padding: 0 4px;
+}
+article .section-profile .col-content .box-text .feature .feature-btn {
+  width: 100%;
+  height: 37px;
+  border: 1px solid #EAEAEA;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article .section-profile .col-content .box-text .feature .feature-btn img {
+  margin-right: 6px;
+}
+article .section-profile .col-content .box-text .chemical_compound {
+  font-size: 8px;
+  display: flex;
+  align-content: center;
+  margin-bottom: 10px;
+}
+article .section-profile .col-content .box-text .chemical_compound:before {
+  content: "";
+  width: 7px;
+  height: 14px;
+  margin-right: 6px;
+  background: #AB0261;
+  border-radius: 3.5px;
+  display: block;
+}
+article .section-profile .col-content .box-text p {
+  font-size: 13px;
+}
+article .section-profile .col-content .box-text a {
+  font-size: 12px;
+  color: #3E9E6C;
+  width: 124px;
+  height: 37px;
+  border: 1px solid #3E9E6C;
+  border-radius: 18px;
+  margin: 33px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=favorite_strains.css.map */

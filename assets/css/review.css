@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Basier Circle Bold";
+  src: url("../fonts/BasierCircle-Bold.eot");
+  src: url("../fonts/BasierCircle-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Bold.woff2") format("woff2"), url("../fonts/BasierCircle-Bold.woff") format("woff"), url("../fonts/BasierCircle-Bold.ttf") format("truetype"), url("../fonts/BasierCircle-Bold.svg#BasierCircle-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle SemiBold";
+  src: url("../fonts/BasierCircle-SemiBold.eot");
+  src: url("../fonts/BasierCircle-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-SemiBold.woff2") format("woff2"), url("../fonts/BasierCircle-SemiBold.woff") format("woff"), url("../fonts/BasierCircle-SemiBold.ttf") format("truetype"), url("../fonts/BasierCircle-SemiBold.svg#BasierCircle-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle Medium";
+  src: url("../fonts/BasierCircle-Medium.eot");
+  src: url("../fonts/BasierCircle-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Medium.woff2") format("woff2"), url("../fonts/BasierCircle-Medium.woff") format("woff"), url("../fonts/BasierCircle-Medium.ttf") format("truetype"), url("../fonts/BasierCircle-Medium.svg#BasierCircle-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle Regular";
+  src: url("../fonts/BasierCircle-Regular.eot");
+  src: url("../fonts/BasierCircle-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Regular.woff2") format("woff2"), url("../fonts/BasierCircle-Regular.woff") format("woff"), url("../fonts/BasierCircle-Regular.ttf") format("truetype"), url("../fonts/BasierCircle-Regular.svg#BasierCircle-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Thonburi Bold";
+  src: url("../fonts/SFThonburi-Bold.eot");
+  src: url("../fonts/SFThonburi-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFThonburi-Bold.woff2") format("woff2"), url("../fonts/SFThonburi-Bold.woff") format("woff"), url("../fonts/SFThonburi-Bold.ttf") format("truetype"), url("../fonts/SFThonburi-Bold.svg#SFThonburi-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Thonburi Regular";
+  src: url("../fonts/SFThonburi-Regular.eot");
+  src: url("../fonts/SFThonburi-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFThonburi-Regular.woff2") format("woff2"), url("../fonts/SFThonburi-Regular.woff") format("woff"), url("../fonts/SFThonburi-Regular.ttf") format("truetype"), url("../fonts/SFThonburi-Regular.svg#SFThonburi-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+article .section-profile .col:first-of-type {
+  max-width: calc(100% - 970px);
+}
+article .section-profile .col:last-of-type {
+  max-width: calc(100% - 230px);
+  border-left: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+article .section-profile .box-upload {
+  padding: 20px 0 20px 65px;
+}
+article .section-profile .box-upload img {
+  width: 114px;
+  height: 114px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+article .section-profile .box-upload .box-btn {
+  padding-left: 32px;
+  margin-left: 32px;
+  border-left: 1px solid #3E9E6C;
+}
+article .section-profile .box-upload .box-btn .choose-btn {
+  font-size: 14px;
+  color: #3FDD6E;
+  width: 159px;
+  height: 55px;
+  margin-right: 32px;
+  border: 1px solid #3E9E6C;
+  border-radius: 3px;
+  cursor: pointer;
+}
+article .section-profile .box-upload .box-btn p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #3E9E6C;
+}
+article .section-profile .box-upload .box-btn input {
+  display: none;
+}
+article .section-profile .col-content {
+  padding: 44px 0 142px 65px;
+  border-bottom: 0 !important;
+}
+article .section-profile .col-content h1 {
+  font-family: "Basier Circle SemiBold";
+  font-size: 21px;
+  color: #3E9E6C;
+  margin-bottom: 24px;
+}
+
+/*# sourceMappingURL=review.css.map */

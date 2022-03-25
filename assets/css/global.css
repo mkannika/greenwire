@@ -104,6 +104,9 @@ header .nav-top .user_profile .user_welcome {
   margin-right: 48px;
 }
 header .nav-top .user_profile .user_welcome img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
   margin-right: 14px;
   border: 1px solid #3FDD6E;
   border-radius: 50%;
@@ -262,6 +265,18 @@ footer .footer-bottom p {
 
 article {
   padding-top: 200px;
+}
+article ul.profile_menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+article ul.profile_menu li a {
+  color: #3E9E6C;
+  line-height: 40px;
+}
+article ul.profile_menu li a.active {
+  font-family: "Basier Circle SemiBold";
 }
 
 /*# sourceMappingURL=global.css.map */

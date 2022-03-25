@@ -66,6 +66,9 @@ header {
                 margin-right: 48px;
 
                 img {
+                    width: 56px;
+                    height: 56px;
+                    object-fit: cover;
                     margin-right: 14px;
                     border: 1px solid $color-green-light;
                     border-radius: 50%;
@@ -270,4 +273,23 @@ footer {
 
 article {
     padding-top: 200px;
+
+    ul {
+        &.profile_menu {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+            li {
+                a {
+                    color: $color-green;
+                    line-height: 40px;
+
+                    &.active {
+                        font-family: $font-Basier-semiBold;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -569,6 +569,24 @@ aside.sidebar .accordion-footer ul a:hover {
   background-color: #3E9E6C;
   color: #fff !important;
 }
+.card-attribute {
+  margin: 1.5rem 0 1rem;
+}
+.card-attribute span {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  font-size: var(--font-size);
+}
+.card-attribute span:before {
+  content: "";
+  width: 7px;
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
 .card-rating {
   display: flex;

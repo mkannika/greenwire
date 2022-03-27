@@ -350,7 +350,7 @@
                             </div>
                             <div class="col-12 col-sm-6 col-md-3 mb-4">
                                 <div class="card">
-                                    <div class="card-favorite"></div>
+                                    <div class="card-favorite active"></div>
                                     <div class="card-img">
                                         <img src="./assets/images/strain/strain_01.jpg" alt="Image">
                                     </div>
@@ -401,7 +401,7 @@
                                             <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
                                         </div>
                                         <div class="card-attribute">
-                                            <span>Caryophyllene</span>
+                                            <span class="item-caryophyllene">Caryophyllene</span>
                                         </div>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
                                             ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
@@ -414,7 +414,7 @@
                             </div>
                             <div class="col-12 col-sm-6 col-md-3 mb-4">
                                 <div class="card">
-                                    <div class="card-favorite"></div>
+                                    <div class="card-favorite active"></div>
                                     <div class="card-img">
                                         <img src="./assets/images/strain/strain_01.jpg" alt="Image">
                                     </div>
@@ -465,7 +465,7 @@
                                             <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
                                         </div>
                                         <div class="card-attribute">
-                                            <span>Caryophyllene</span>
+                                            <span class="item-caryophyllene">Caryophyllene</span>
                                         </div>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
                                             ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
@@ -478,7 +478,7 @@
                             </div>
                             <div class="col-12 col-sm-6 col-md-3 mb-4">
                                 <div class="card">
-                                    <div class="card-favorite"></div>
+                                    <div class="card-favorite active"></div>
                                     <div class="card-img">
                                         <img src="./assets/images/strain/strain_01.jpg" alt="Image">
                                     </div>
@@ -529,265 +529,7 @@
                                             <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
                                         </div>
                                         <div class="card-attribute">
-                                            <span>Caryophyllene</span>
-                                        </div>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
-                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
-                                            16</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="" class="btn btn-outline">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                                <div class="card">
-                                    <div class="card-favorite"></div>
-                                    <div class="card-img">
-                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title">Popular Shop dispensaries</h4>
-                                        <div class="card-rating">
-                                            <div class="score-desc">
-                                                <span>Shop rating:</span>
-                                                <span class="rating-number">4.0</span>
-                                            </div>
-                                            <div class="star-rating">
-                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
-                                                <label for="box1-star-5" title="5 stars">
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
-                                                <label for="box1-star-4" title="4 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
-                                                <label for="box1-star-3" title="3 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
-                                                <label for="box1-star-2" title="2 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
-                                                <label for="box1-star-1" title="1 star">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
-                                            <div class="btn btn-default">Indica</div>
-                                            <ul class="d-grid">
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-details-tags d-flex flex-wrap">
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
-                                        </div>
-                                        <div class="card-attribute">
-                                            <span>Caryophyllene</span>
-                                        </div>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
-                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
-                                            16</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="" class="btn btn-outline">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                                <div class="card">
-                                    <div class="card-favorite"></div>
-                                    <div class="card-img">
-                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title">Popular Shop dispensaries</h4>
-                                        <div class="card-rating">
-                                            <div class="score-desc">
-                                                <span>Shop rating:</span>
-                                                <span class="rating-number">4.0</span>
-                                            </div>
-                                            <div class="star-rating">
-                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
-                                                <label for="box1-star-5" title="5 stars">
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
-                                                <label for="box1-star-4" title="4 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
-                                                <label for="box1-star-3" title="3 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
-                                                <label for="box1-star-2" title="2 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
-                                                <label for="box1-star-1" title="1 star">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
-                                            <div class="btn btn-default">Indica</div>
-                                            <ul class="d-grid">
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-details-tags d-flex flex-wrap">
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
-                                        </div>
-                                        <div class="card-attribute">
-                                            <span>Caryophyllene</span>
-                                        </div>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
-                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
-                                            16</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="" class="btn btn-outline">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                                <div class="card">
-                                    <div class="card-favorite"></div>
-                                    <div class="card-img">
-                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title">Popular Shop dispensaries</h4>
-                                        <div class="card-rating">
-                                            <div class="score-desc">
-                                                <span>Shop rating:</span>
-                                                <span class="rating-number">4.0</span>
-                                            </div>
-                                            <div class="star-rating">
-                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
-                                                <label for="box1-star-5" title="5 stars">
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
-                                                <label for="box1-star-4" title="4 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
-                                                <label for="box1-star-3" title="3 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
-                                                <label for="box1-star-2" title="2 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
-                                                <label for="box1-star-1" title="1 star">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
-                                            <div class="btn btn-default">Indica</div>
-                                            <ul class="d-grid">
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-details-tags d-flex flex-wrap">
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
-                                        </div>
-                                        <div class="card-attribute">
-                                            <span>Caryophyllene</span>
-                                        </div>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
-                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
-                                            16</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="" class="btn btn-outline">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                                <div class="card">
-                                    <div class="card-favorite"></div>
-                                    <div class="card-img">
-                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title">Popular Shop dispensaries</h4>
-                                        <div class="card-rating">
-                                            <div class="score-desc">
-                                                <span>Shop rating:</span>
-                                                <span class="rating-number">4.0</span>
-                                            </div>
-                                            <div class="star-rating">
-                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
-                                                <label for="box1-star-5" title="5 stars">
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
-                                                <label for="box1-star-4" title="4 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
-                                                <label for="box1-star-3" title="3 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
-                                                <label for="box1-star-2" title="2 stars">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
-                                                <label for="box1-star-1" title="1 star">
-                                                    <i class="bi bi-star-fill active"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
-                                            <div class="btn btn-default">Indica</div>
-                                            <ul class="d-grid">
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
-                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-details-tags d-flex flex-wrap">
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
-                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
-                                        </div>
-                                        <div class="card-attribute">
-                                            <span>Caryophyllene</span>
+                                            <span class="item-caryophyllene">Caryophyllene</span>
                                         </div>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
                                             ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
@@ -802,7 +544,7 @@
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-3 mb-4">
                                 <div class="card">
-                                    <div class="card-favorite"></div>
+                                    <div class="card-favorite active"></div>
                                     <div class="card-img">
                                         <img src="./assets/images/strain/strain_01.jpg" alt="Image">
                                     </div>
@@ -853,7 +595,7 @@
                                             <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
                                         </div>
                                         <div class="card-attribute">
-                                            <span>Caryophyllene</span>
+                                            <span class="item-caryophyllene">Caryophyllene</span>
                                         </div>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
                                             ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
@@ -866,7 +608,7 @@
                             </div>
                             <div class="col-12 col-sm-6 col-md-3 mb-4">
                                 <div class="card">
-                                    <div class="card-favorite"></div>
+                                    <div class="card-favorite active"></div>
                                     <div class="card-img">
                                         <img src="./assets/images/strain/strain_01.jpg" alt="Image">
                                     </div>
@@ -917,7 +659,7 @@
                                             <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
                                         </div>
                                         <div class="card-attribute">
-                                            <span>Caryophyllene</span>
+                                            <span class="item-caryophyllene">Caryophyllene</span>
                                         </div>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
                                             ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
@@ -930,7 +672,7 @@
                             </div>
                             <div class="col-12 col-sm-6 col-md-3 mb-4">
                                 <div class="card">
-                                    <div class="card-favorite"></div>
+                                    <div class="card-favorite active"></div>
                                     <div class="card-img">
                                         <img src="./assets/images/strain/strain_01.jpg" alt="Image">
                                     </div>
@@ -981,7 +723,7 @@
                                             <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
                                         </div>
                                         <div class="card-attribute">
-                                            <span>Caryophyllene</span>
+                                            <span class="item-caryophyllene">Caryophyllene</span>
                                         </div>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
                                             ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
@@ -994,7 +736,7 @@
                             </div>
                             <div class="col-12 col-sm-6 col-md-3 mb-4">
                                 <div class="card">
-                                    <div class="card-favorite"></div>
+                                    <div class="card-favorite active"></div>
                                     <div class="card-img">
                                         <img src="./assets/images/strain/strain_01.jpg" alt="Image">
                                     </div>
@@ -1045,7 +787,265 @@
                                             <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
                                         </div>
                                         <div class="card-attribute">
-                                            <span>Caryophyllene</span>
+                                            <span class="item-caryophyllene">Caryophyllene</span>
+                                        </div>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                            16</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="" class="btn btn-outline">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                                <div class="card">
+                                    <div class="card-favorite active"></div>
+                                    <div class="card-img">
+                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Popular Shop dispensaries</h4>
+                                        <div class="card-rating">
+                                            <div class="score-desc">
+                                                <span>Shop rating:</span>
+                                                <span class="rating-number">4.0</span>
+                                            </div>
+                                            <div class="star-rating">
+                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                                <label for="box1-star-5" title="5 stars">
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                                <label for="box1-star-4" title="4 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                                <label for="box1-star-3" title="3 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                                <label for="box1-star-2" title="2 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                                <label for="box1-star-1" title="1 star">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
+                                            <div class="btn btn-default">Indica</div>
+                                            <ul class="d-grid">
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-details-tags d-flex flex-wrap">
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
+                                        </div>
+                                        <div class="card-attribute">
+                                            <span class="item-caryophyllene">Caryophyllene</span>
+                                        </div>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                            16</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="" class="btn btn-outline">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                                <div class="card">
+                                    <div class="card-favorite active"></div>
+                                    <div class="card-img">
+                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Popular Shop dispensaries</h4>
+                                        <div class="card-rating">
+                                            <div class="score-desc">
+                                                <span>Shop rating:</span>
+                                                <span class="rating-number">4.0</span>
+                                            </div>
+                                            <div class="star-rating">
+                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                                <label for="box1-star-5" title="5 stars">
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                                <label for="box1-star-4" title="4 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                                <label for="box1-star-3" title="3 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                                <label for="box1-star-2" title="2 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                                <label for="box1-star-1" title="1 star">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
+                                            <div class="btn btn-default">Indica</div>
+                                            <ul class="d-grid">
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-details-tags d-flex flex-wrap">
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
+                                        </div>
+                                        <div class="card-attribute">
+                                            <span class="item-caryophyllene">Caryophyllene</span>
+                                        </div>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                            16</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="" class="btn btn-outline">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                                <div class="card">
+                                    <div class="card-favorite active"></div>
+                                    <div class="card-img">
+                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Popular Shop dispensaries</h4>
+                                        <div class="card-rating">
+                                            <div class="score-desc">
+                                                <span>Shop rating:</span>
+                                                <span class="rating-number">4.0</span>
+                                            </div>
+                                            <div class="star-rating">
+                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                                <label for="box1-star-5" title="5 stars">
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                                <label for="box1-star-4" title="4 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                                <label for="box1-star-3" title="3 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                                <label for="box1-star-2" title="2 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                                <label for="box1-star-1" title="1 star">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
+                                            <div class="btn btn-default">Indica</div>
+                                            <ul class="d-grid">
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-details-tags d-flex flex-wrap">
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
+                                        </div>
+                                        <div class="card-attribute">
+                                            <span class="item-caryophyllene">Caryophyllene</span>
+                                        </div>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+                                            16</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="" class="btn btn-outline">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                                <div class="card">
+                                    <div class="card-favorite active"></div>
+                                    <div class="card-img">
+                                        <img src="./assets/images/strain/strain_01.jpg" alt="Image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Popular Shop dispensaries</h4>
+                                        <div class="card-rating">
+                                            <div class="score-desc">
+                                                <span>Shop rating:</span>
+                                                <span class="rating-number">4.0</span>
+                                            </div>
+                                            <div class="star-rating">
+                                                <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                                <label for="box1-star-5" title="5 stars">
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                                <label for="box1-star-4" title="4 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                                <label for="box1-star-3" title="3 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                                <label for="box1-star-2" title="2 stars">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                                <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                                <label for="box1-star-1" title="1 star">
+                                                    <i class="bi bi-star-fill active"></i>
+                                                    <i class="bi bi-star"></i>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="product-details-percent d-flex justify-content-between align-items-center">
+                                            <div class="btn btn-default">Indica</div>
+                                            <ul class="d-grid">
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_01.svg" alt="THC"><span>THC 20%</span></li>
+                                                <li class="d-flex align-items-center"><img src="./assets/images/home/icon_02.svg" alt="CBG"><span>CBG 1%</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-details-tags d-flex flex-wrap">
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_flower.svg" alt="THC">Flowery</span>
+                                            <span class="btn btn-outline d-flex align-items-center"><img src="./assets/images/home/icon_sleep.svg" alt="THC">Sleepy</span>
+                                        </div>
+                                        <div class="card-attribute">
+                                            <span class="item-caryophyllene">Caryophyllene</span>
                                         </div>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
                                             ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่

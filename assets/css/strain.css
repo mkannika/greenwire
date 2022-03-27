@@ -149,14 +149,5 @@ section .card-favorite:before {
 section .card-favorite.active:before, section .card-favorite:hover:before {
   content: "\f415";
 }
-section .card-attribute {
-  margin: 1.5rem 0 1rem;
-}
-section .card-attribute span {
-  display: block;
-  position: relative;
-  padding-left: 20px;
-  font-size: var(--font-size);
-}
 
 /*# sourceMappingURL=strain.css.map */

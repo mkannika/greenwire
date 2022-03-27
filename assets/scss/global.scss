@@ -313,32 +313,6 @@ article {
 	}
 }
 
-// Pagination
-
-.pagination {
-	justify-content: center;
-	margin-bottom: 0;
-
-	.page-link {
-		color: #f7c67f;
-		background-color: transparent;
-		border-color: transparent;
-
-		&:hover {
-			border-color: $color-green-dark;
-			border-radius: 0.25rem;
-		}
-	}
-
-	.disabled {
-		.page-link {
-			color: #f7c67f;
-			background-color: transparent;
-			border-color: transparent;
-		}
-	}
-}
-
 aside {
 	&.sidebar {
 		margin-top: 90px;
@@ -466,6 +440,31 @@ aside {
 	}
 }
 
+// Pagination
+.pagination {
+	justify-content: center;
+	margin-bottom: 0;
+
+	.page-link {
+		color: #f7c67f;
+		background-color: transparent;
+		border-color: transparent;
+
+		&:hover {
+			border-color: $color-green-dark;
+			border-radius: 0.25rem;
+		}
+	}
+
+	.disabled {
+		.page-link {
+			color: #f7c67f;
+			background-color: transparent;
+			border-color: transparent;
+		}
+	}
+}
+
 // Filter
 .filter {
 	&-simple {
@@ -567,7 +566,7 @@ aside {
 	}
 }
 
-// Card default
+// Card Default
 .card {
 	background: transparent;
 	border: none;

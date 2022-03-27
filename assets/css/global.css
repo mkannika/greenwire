@@ -297,25 +297,6 @@ article .border-start {
   border-color: #EAEAEA !important;
 }
 
-.pagination {
-  justify-content: center;
-  margin-bottom: 0;
-}
-.pagination .page-link {
-  color: #f7c67f;
-  background-color: transparent;
-  border-color: transparent;
-}
-.pagination .page-link:hover {
-  border-color: #00423E;
-  border-radius: 0.25rem;
-}
-.pagination .disabled .page-link {
-  color: #f7c67f;
-  background-color: transparent;
-  border-color: transparent;
-}
-
 aside.sidebar {
   margin-top: 90px;
 }
@@ -425,6 +406,25 @@ aside.sidebar .list-group li .card-img-left {
   padding: 15px;
   margin-right: 15px;
   transition: all 0.25s linear;
+}
+
+.pagination {
+  justify-content: center;
+  margin-bottom: 0;
+}
+.pagination .page-link {
+  color: #f7c67f;
+  background-color: transparent;
+  border-color: transparent;
+}
+.pagination .page-link:hover {
+  border-color: #00423E;
+  border-radius: 0.25rem;
+}
+.pagination .disabled .page-link {
+  color: #f7c67f;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .filter-simple {

@@ -14,14 +14,6 @@
 	}
 }
 
-.border,
-.border-end,
-.border-top,
-.border-bottom,
-.border-start {
-	border-color: $color-grey !important;
-}
-
 section {
 	--space: 5rem;
 
@@ -77,10 +69,6 @@ section {
 		}
 	}
 
-	.btn {
-		font-size: 13px !important;
-	}
-
 	.btn-outline {
 		border: 2px solid $color-white;
 
@@ -115,34 +103,6 @@ section {
 				background-color: transparent;
 				border-color: transparent;
 			}
-		}
-	}
-
-	.card {
-		background: transparent;
-		border: none;
-
-		&-rating {
-			border-color: inherit;
-		}
-
-		&-title {
-			text-align: left;
-			white-space: nowrap;
-			margin: 1rem 0 0;
-		}
-
-		&-body {
-			padding: 1rem 0 0;
-			text-align: left;
-		}
-
-		&-footer {
-			background: transparent;
-			border: none;
-			text-align: left;
-			padding: 0;
-			margin: 2rem 0 0;
 		}
 	}
 
@@ -705,58 +665,6 @@ section {
 				color: $color-black;
 				font-family: $font-Basier-medium;
 				margin-bottom: 1rem;
-			}
-		}
-	}
-}
-
-// Rating
-.card-rating {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-top: 1px solid #d0d0d0;
-	border-bottom: 1px solid #d0d0d0;
-	padding: 1rem 0;
-	margin: 1.5rem 0;
-	color: $color-green;
-
-	.star-rating {
-		direction: rtl;
-		display: inline-block;
-		cursor: default;
-
-		input[type="radio"] {
-			display: none;
-		}
-
-		label {
-			color: $color-green;
-			font-size: 18px;
-			padding: 0;
-			cursor: pointer;
-			-webkit-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
-
-			.bi-star-fill {
-				position: absolute;
-				opacity: 0;
-				-webkit-transition: all 0.3s ease-in-out;
-				transition: all 0.3s ease-in-out;
-
-				&.active {
-					opacity: 1;
-				}
-			}
-		}
-
-		label:hover,
-		label:hover~label,
-		input[type="radio"]:checked~label {
-			color: $color-green;
-
-			.bi-star-fill {
-				opacity: 1;
 			}
 		}
 	}

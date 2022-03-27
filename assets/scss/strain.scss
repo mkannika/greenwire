@@ -1,0 +1,138 @@
+@import "assets/_variables";
+@import "assets/fonts";
+
+section {
+	--space: 5rem;
+	--font-size: 12px;
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		color: $color-green;
+		font-family: $font-Basier-medium;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	a {
+        &:not([href]):not([class]), 
+        &:not([href]):not([class]):hover{
+            color: $color-green;
+            text-decoration: underline;
+        }
+		&:hover {
+			color: $color-green;
+			text-decoration: none;
+		}
+	}
+
+    &.main{
+        margin-bottom: 100px;
+    }
+
+	.product-details {
+		&-percent,
+		&-tags {
+			color: $color-black;
+			font-size: var(--font-size);
+
+			.btn-outline {
+				border-color: #d0d0d0;
+
+				&:hover {
+					background-color: #d0d0d0;
+					color: $color-white !important;
+				}
+			}
+			.btn-default {
+				background-color: $color-grey;
+				font-size: var(--font-size);
+			}
+		}
+
+		&-percent {
+			margin-bottom: 1.5rem;
+
+			ul {
+				list-style: none;
+				padding: 0 0 0 10px;
+				margin: 0;
+				max-width: 180px;
+				grid-template-columns: 1fr 1fr;
+				white-space: nowrap;
+
+				img {
+					margin-right: 0.25rem;
+				}
+
+				li + li {
+					margin-left: 0.5rem;
+				}
+			}
+		}
+
+		&-tags {
+			.btn {
+				padding: 12px;
+				font-size: var(--font-size);
+			}
+
+			img {
+				margin-right: 0.25rem;
+			}
+
+			span + span {
+				margin-left: 0.5rem;
+			}
+		}
+	}
+
+	.card {
+		&-img {
+			border: 1px solid $color-grey;
+			padding: 1rem;
+		}
+		&-title {
+			white-space: normal;
+		}
+		&-text {
+			font-size: 90%;
+		}
+		&-rating {
+			.star-rating {
+				label {
+					font-size: var(--font-size);
+				}
+			}
+		}
+		&-favorite {
+			position: absolute;
+			right: 15px;
+			top: 15px;
+			color: $color-green;
+            cursor: pointer;
+			&:before {
+				content: "\f417";
+				display: inline-block;
+				font-family: bootstrap-icons !important;
+				font-style: normal;
+				font-weight: normal !important;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+				vertical-align: -0.125em;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+			&.active,
+			&:hover {
+				&:before {
+					content: "\f415";
+				}
+			}
+		}
+	}
+}

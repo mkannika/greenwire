@@ -264,16 +264,16 @@
                             </div>
                         </div>
                         <h3>Your weed strains by type</h3>
-                        <ul class="list-group">
-                            <li class="list-group-item active">
+                        <ul class="filter-by-type">
+                            <li class="active">
                                 <div class="card-img-left"><img src="./assets/images/icons/leaf_01.svg" alt="Card image cap"></div>
                                 <p class="card-text">Indica</p>
                             </li>
-                            <li class="list-group-item">
+                            <li>
                                 <div class="card-img-left"><img src="./assets/images/icons/leaf_02.svg" alt="Card image cap"></div>
                                 <p class="card-text">Sativa</p>
                             </li>
-                            <li class="list-group-item">
+                            <li>
                                 <div class="card-img-left"><img src="./assets/images/icons/leaf_03.svg" alt="Card image cap"></div>
                                 <p class="card-text">Hybrid</p>
                             </li>

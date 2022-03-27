@@ -379,34 +379,6 @@ aside.sidebar .accordion-footer ul a {
 aside.sidebar .accordion-footer ul a:hover {
   text-decoration: underline;
 }
-aside.sidebar .list-group li {
-  padding-left: 0;
-  padding-right: 0;
-  border-left: none;
-  border-right: none;
-  display: flex;
-  align-items: center;
-  border-color: #EAEAEA;
-  cursor: pointer;
-}
-aside.sidebar .list-group li.active, aside.sidebar .list-group li:hover {
-  background: none;
-}
-aside.sidebar .list-group li.active .card-img-left, aside.sidebar .list-group li:hover .card-img-left {
-  background-color: #00423E;
-}
-aside.sidebar .list-group li .card-img-left {
-  width: 65px;
-  height: 65px;
-  border-radius: 65px;
-  border: 2px solid #3FDD6E;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  margin-right: 15px;
-  transition: all 0.25s linear;
-}
 
 .pagination {
   justify-content: center;
@@ -444,6 +416,41 @@ aside.sidebar .list-group li .card-img-left {
 .filter-simple a:hover {
   color: #000000;
   text-decoration: underline;
+}
+.filter-by-type {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #EAEAEA;
+}
+.filter-by-type li {
+  padding-left: 0;
+  padding-right: 0;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #EAEAEA;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.filter-by-type li.active, .filter-by-type li:hover {
+  background: none;
+}
+.filter-by-type li.active .card-img-left, .filter-by-type li:hover .card-img-left {
+  background-color: #00423E;
+}
+.filter-by-type li .card-img-left {
+  width: 65px;
+  height: 65px;
+  border-radius: 65px;
+  border: 2px solid #3FDD6E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-right: 15px;
+  transition: all 0.25s linear;
 }
 .filter-terpenes {
   padding: 0;

@@ -402,41 +402,6 @@ aside {
 				}
 			}
 		}
-		.list-group {
-			li {
-				padding-left: 0;
-				padding-right: 0;
-				border-left: none;
-				border-right: none;
-				display: flex;
-				align-items: center;
-				border-color: $color-grey;
-				cursor: pointer;
-				&.active,
-				&:hover {
-					background: none;
-					.card {
-						&-img-left {
-							background-color: $color-green-dark;
-						}
-					}
-				}
-				.card {
-					&-img-left {
-						width: 65px;
-						height: 65px;
-						border-radius: 65px;
-						border: 2px solid $color-green-light;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						padding: 15px;
-						margin-right: 15px;
-						transition: all 0.25s linear;
-					}
-				}
-			}
-		}
 	}
 }
 
@@ -484,6 +449,46 @@ aside {
 			}
 		}
 	}
+    &-by-type{
+        padding: 0;
+		margin: 0;
+        border-top: 1px solid $color-grey;
+        li {
+            padding-left: 0;
+            padding-right: 0;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid $color-grey;
+            padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            &.active,
+            &:hover {
+                background: none;
+                .card {
+                    &-img-left {
+                        background-color: $color-green-dark;
+                    }
+                }
+            }
+            .card {
+                &-img-left {
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 65px;
+                    border: 2px solid $color-green-light;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 15px;
+                    margin-right: 15px;
+                    transition: all 0.25s linear;
+                }
+            }
+        }
+    }
 	&-terpenes {
         padding: 0;
 		margin: 0;

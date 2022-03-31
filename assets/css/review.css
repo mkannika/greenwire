@@ -96,5 +96,38 @@ article .section-profile .col-content h1 {
   color: #3E9E6C;
   margin-bottom: 24px;
 }
+article .section-profile .col-content .box-review {
+  border: 1px solid #EAEAEA;
+  border-radius: 11px;
+}
+article .section-profile .col-content .box-review .title {
+  padding: 26px 40px;
+  border-bottom: 1px solid #EAEAEA;
+}
+article .section-profile .col-content .box-review .title h3 {
+  font-size: 16px;
+  color: #000000;
+}
+article .section-profile .col-content .box-review .title time {
+  font-size: 12px;
+  color: #636363;
+}
+article .section-profile .col-content .box-review .comment {
+  padding: 34px 40px 17px 40px;
+}
+article .section-profile .col-content .box-review .comment p {
+  color: #000000;
+}
+article .section-profile .col-content .box-review .comment p.helpful {
+  font-size: 12px;
+  color: #9C9C9C;
+  margin-top: 32px;
+}
+article .section-profile .col-content .box-review .comment a {
+  font-family: "Basier Circle Medium";
+  font-size: 12px;
+  color: #3E9E6C;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=review.css.map */

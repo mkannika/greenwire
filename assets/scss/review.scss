@@ -65,6 +65,39 @@ article {
                     color: $color-green;
                     margin-bottom: 24px;
                 }
+                .box-review {
+                    border: 1px solid $color-grey;
+                    border-radius: 11px;
+                    .title {
+                        padding: 26px 40px;
+                        border-bottom: 1px solid $color-grey;
+                        h3 {
+                            font-size: 16px;
+                            color: $color-black;
+                        }
+                        time {
+                            font-size: 12px;
+                            color: $color-base;
+                        }
+                    }
+                    .comment {
+                        padding: 34px 40px 17px 40px;
+                        p {
+                            color: $color-black;
+                            &.helpful {
+                                font-size: 12px;
+                                color: #9C9C9C;
+                                margin-top: 32px;
+                            }
+                        }
+                        a {
+                            font-family: $font-Basier-medium;
+                            font-size: 12px;
+                            color: $color-green;
+                            text-decoration: underline;
+                        }
+                    }
+                }
             }
         }
     }

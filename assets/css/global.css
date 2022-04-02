@@ -527,6 +527,11 @@ aside.sidebar .accordion-footer ul a:hover {
   white-space: nowrap;
   margin: 1rem 0 0;
 }
+.card-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .card-body {
   padding: 1rem 0 0;
   text-align: left;
@@ -586,6 +591,9 @@ aside.sidebar .accordion-footer ul a:hover {
   position: absolute;
   left: 0;
   top: 0;
+}
+.card-progress {
+  margin: 1rem 0;
 }
 
 .card-rating {

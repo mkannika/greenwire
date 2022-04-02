@@ -29,11 +29,11 @@ section {
 		}
 	}
 
-	&.main {
-		margin-bottom: 100px;
+    .text-green {
+		color: $color-green;
 	}
 
-	.product-details {
+    .product-details {
 		&-percent,
 		&-tags {
 			color: $color-black;
@@ -84,55 +84,21 @@ section {
 				margin-right: 0.25rem;
 			}
 
-			span + span {
-				margin-left: 0.5rem;
+			span {
+				font-size: 14px;
 			}
 		}
 	}
 
-	.card {
-		&-img {
-			border: 1px solid $color-grey;
-			padding: 1rem;
-		}
-		&-title {
-			white-space: normal;
-		}
-		&-text {
-			font-size: 90%;
-		}
-		&-rating {
-			.star-rating {
-				label {
-					font-size: var(--font-size);
-				}
-			}
-		}
-		&-favorite {
-			position: absolute;
-			right: 15px;
-			top: 15px;
-			color: $color-green;
-			cursor: pointer;
-			&:before {
-				content: "\f417";
-				display: inline-block;
-				font-family: bootstrap-icons !important;
-				font-style: normal;
-				font-weight: normal !important;
-				font-variant: normal;
-				text-transform: none;
-				line-height: 1;
-				vertical-align: -0.125em;
-				-webkit-font-smoothing: antialiased;
-				-moz-osx-font-smoothing: grayscale;
-			}
-			&.active,
-			&:hover {
-				&:before {
-					content: "\f415";
-				}
-			}
-		}
-	}
+    // Progress
+    .progress {
+        height: 7px;
+        border-radius: 1rem;
+        margin-top: .25rem;
+        &-bar {
+            height: 7px;
+            background-color: $color-green;
+            border-radius: 1rem;
+        }
+    }
 }

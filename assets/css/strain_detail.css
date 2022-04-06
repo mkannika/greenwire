@@ -60,6 +60,9 @@ section h4 {
 section h4 {
   font-size: 18px;
 }
+section a {
+  color: #3E9E6C;
+}
 section a:not([href]):not([class]), section a:not([href]):not([class]):hover {
   color: #3E9E6C;
   text-decoration: underline;
@@ -68,50 +71,16 @@ section a:hover {
   color: #3E9E6C;
   text-decoration: none;
 }
-section .text-green {
-  color: #3E9E6C;
+section input {
+  color: #636363 !important;
 }
-section .product-details-percent, section .product-details-tags {
-  color: #000000;
-  font-size: var(--font-size);
+section input::placeholder {
+  color: #636363;
+  font-size: 90%;
 }
-section .product-details-percent .btn-outline, section .product-details-tags .btn-outline {
-  border-color: #d0d0d0;
-}
-section .product-details-percent .btn-outline:hover, section .product-details-tags .btn-outline:hover {
-  background-color: #d0d0d0;
-  color: #fff !important;
-}
-section .product-details-percent .btn-default, section .product-details-tags .btn-default {
-  background-color: #EAEAEA;
-  font-size: var(--font-size);
-}
-section .product-details-percent {
-  margin-bottom: 1.5rem;
-}
-section .product-details-percent ul {
-  list-style: none;
-  padding: 0 0 0 10px;
-  margin: 0;
-  max-width: 180px;
-  grid-template-columns: 1fr 1fr;
-  white-space: nowrap;
-}
-section .product-details-percent ul img {
-  margin-right: 0.25rem;
-}
-section .product-details-percent ul li + li {
-  margin-left: 0.5rem;
-}
-section .product-details-tags .btn {
-  padding: 12px;
-  font-size: var(--font-size);
-}
-section .product-details-tags img {
-  margin-right: 0.25rem;
-}
-section .product-details-tags span {
-  font-size: 14px;
+section input:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 section .progress {
   height: 7px;
@@ -122,6 +91,164 @@ section .progress-bar {
   height: 7px;
   background-color: #3E9E6C;
   border-radius: 1rem;
+}
+
+.main {
+  --space: 100px;
+}
+.main .swiper {
+  max-width: 450px;
+  margin-left: 0;
+}
+.main .swiper .card-rating {
+  margin-right: 110px;
+  border: none;
+  justify-content: flex-start;
+  margin-top: 0;
+}
+.main .swiper .card-rating .star-rating {
+  margin-left: 20px;
+}
+.main .swiper-button-next {
+  right: 0;
+}
+.main .swiper-button-prev {
+  right: 60px;
+}
+.main #part-1 {
+  margin-bottom: var(--space);
+}
+.main #part-2 .row {
+  --bs-gutter-x: 4.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.main #part-2 .form-report {
+  max-width: 570px;
+  position: relative;
+}
+.main #part-2 .form-report i {
+  position: absolute;
+  top: 10px;
+}
+.main #part-2 .form-report i.bi-chat-square-text {
+  left: 20px;
+}
+.main #part-2 .form-report i.bi-info-circle {
+  right: 20px;
+}
+.main #part-2 .form-report input {
+  background-color: #F6F6F6;
+  border-radius: 60px;
+  height: 40px;
+  border: none;
+  padding: 10px 50px;
+}
+.main #part-2 .product-details-tags {
+  justify-content: space-between;
+}
+.main #part-2 .product-details-tags .btn {
+  width: calc(33.333% - 15px);
+  font-size: 120%;
+}
+.main #part-2 .product-details-tags .btn img {
+  max-width: 30px;
+  margin: 0 0 8px;
+}
+.main #part-2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main #part-2 ul h4 {
+  text-decoration: underline;
+}
+.main #part-2 .card-note {
+  color: #9f9f9f;
+}
+.main #part-2 .card-note p {
+  font-size: 12px;
+}
+.main #part-2 .card-note .card-body {
+  padding: 1rem;
+}
+.main .review-wrapper a {
+  text-decoration: underline;
+}
+.main .review-wrapper span {
+  color: #bfbfbf;
+  font-size: 16px;
+}
+.main .review-wrapper .btn-outline {
+  border-color: #3E9E6C;
+  background: transparent;
+  color: #3E9E6C;
+  text-transform: capitalize;
+  border-radius: 60px;
+  padding: 10px 30px;
+  min-width: 130px;
+  text-transform: uppercase;
+  border-width: 1px;
+}
+.main .review-wrapper .btn-outline:hover {
+  background-color: #3E9E6C;
+  color: #fff !important;
+}
+.main .review-wrapper .review-list .border-start {
+  border-color: #3E9E6C !important;
+}
+.main .review-wrapper .review-list .card {
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.main .review-wrapper .review-list .card-header {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.main .review-wrapper .review-list .card-info {
+  display: flex;
+  align-items: center;
+}
+.main .review-wrapper .review-list .card-info .author {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .review-wrapper .review-list .card-body {
+  padding: 30px;
+}
+.main .review-wrapper .review-list .card-footer {
+  color: #9c9c9c;
+  font-size: 13px;
+  align-items: flex-end;
+}
+.main .review-wrapper .review-list .card-helpful .btn-helpful {
+  color: #3E9E6C;
+  font-family: "Basier Circle Medium";
+  margin-top: 20px;
+}
+.main .review-wrapper .review-list .card-helpful .btn-helpful i {
+  margin-right: 5px;
+}
+.main .review-wrapper .review-list .card-desc span {
+  color: #9c9c9c;
+  font-size: 13px;
+}
+.main .review-wrapper .review-list .card-date {
+  font-size: 80%;
+}
+.main .review-wrapper .review-list .card-rating {
+  border: none;
+  margin: 0 0 0 15px;
+  padding: 0 0 0 15px;
 }
 
 /*# sourceMappingURL=strain_detail.css.map */

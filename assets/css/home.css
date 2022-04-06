@@ -286,35 +286,6 @@ section.section-intro .section-slide-1 .swiper-content .recommend {
   justify-content: space-between;
   margin-bottom: 0.5rem;
 }
-section.section-intro .section-slide-1 .swiper-content .product-details-percent, section.section-intro .section-slide-1 .swiper-content .product-details-tags {
-  color: #000000;
-}
-section.section-intro .section-slide-1 .swiper-content .product-details-percent {
-  margin-bottom: 1.5rem;
-}
-section.section-intro .section-slide-1 .swiper-content .product-details-percent ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  max-width: 180px;
-  grid-template-columns: 1fr 1fr;
-  white-space: nowrap;
-}
-section.section-intro .section-slide-1 .swiper-content .product-details-percent ul img {
-  margin-right: 0.25rem;
-}
-section.section-intro .section-slide-1 .swiper-content .product-details-percent ul li + li {
-  margin-left: 0.5rem;
-}
-section.section-intro .section-slide-1 .swiper-content .product-details-tags .btn {
-  padding: 15px;
-}
-section.section-intro .section-slide-1 .swiper-content .product-details-tags img {
-  margin-right: 0.25rem;
-}
-section.section-intro .section-slide-1 .swiper-content .product-details-tags span + span {
-  margin-left: 0.5rem;
-}
 section.section-intro .section-slide-1 .swiper-content .btn-learn-more {
   width: 100%;
   max-width: 400px;

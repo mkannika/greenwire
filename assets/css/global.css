@@ -507,6 +507,9 @@ aside.sidebar .accordion-footer ul a:hover {
 .breadcrumb .breadcrumb-item {
   color: #3E9E6C;
 }
+.breadcrumb .breadcrumb-item a {
+  color: #3E9E6C;
+}
 .breadcrumb .breadcrumb-item.active {
   color: #636363;
 }
@@ -526,6 +529,11 @@ aside.sidebar .accordion-footer ul a:hover {
   text-align: left;
   white-space: nowrap;
   margin: 1rem 0 0;
+}
+.card-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .card-body {
   padding: 1rem 0 0;
@@ -587,6 +595,53 @@ aside.sidebar .accordion-footer ul a:hover {
   left: 0;
   top: 0;
 }
+.card-progress {
+  margin: 1rem 0;
+}
+.card-favotite-wrapper {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  width: auto;
+  align-items: center;
+  background: #EAEAEA;
+  border-radius: 20px;
+  padding: 5px 20px;
+  top: 10px;
+  font-size: 70%;
+}
+.card-favotite-wrapper .card-favorite {
+  position: relative;
+  right: auto;
+  top: auto;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-favorite {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #3E9E6C;
+  cursor: pointer;
+}
+.card-favorite:before {
+  content: "\f417";
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.card-favorite.active:before, .card-favorite:hover:before {
+  content: "\f415";
+}
 
 .card-rating {
   display: flex;
@@ -623,15 +678,92 @@ aside.sidebar .accordion-footer ul a:hover {
 .card-rating .star-rating label .bi-star-fill.active {
   opacity: 1;
 }
-.card-rating .star-rating label:hover,
-.card-rating .star-rating label:hover ~ label,
-.card-rating .star-rating input[type=radio]:checked ~ label {
+
+.product-details-percent, .product-details-tags {
+  color: #000000;
+  font-size: var(--font-size);
+}
+.product-details-percent .btn-outline, .product-details-tags .btn-outline {
+  border-color: #d0d0d0;
+}
+.product-details-percent .btn-outline:hover, .product-details-tags .btn-outline:hover {
+  background-color: #d0d0d0;
+  color: #fff !important;
+}
+.product-details-percent .btn-default, .product-details-tags .btn-default {
+  background-color: #EAEAEA;
+  font-size: var(--font-size);
+}
+.product-details-percent {
+  margin-bottom: 1.5rem;
+}
+.product-details-percent ul {
+  list-style: none;
+  padding: 0 0 0 10px;
+  margin: 0;
+  max-width: 180px;
+  grid-template-columns: 1fr 1fr;
+  white-space: nowrap;
+}
+.product-details-percent ul img {
+  margin-right: 0.25rem;
+}
+.product-details-percent ul li + li {
+  margin-left: 0.5rem;
+}
+.product-details-tags .btn {
+  padding: 12px;
+  font-size: var(--font-size);
+}
+.product-details-tags img {
+  margin-right: 0.25rem;
+}
+.product-details-tags span + span {
+  margin-left: 0.5rem;
+}
+
+.text-green {
   color: #3E9E6C;
 }
-.card-rating .star-rating label:hover .bi-star-fill,
-.card-rating .star-rating label:hover ~ label .bi-star-fill,
-.card-rating .star-rating input[type=radio]:checked ~ label .bi-star-fill {
-  opacity: 1;
+
+.main .swiper-button-prev, .main .swiper-button-next {
+  background-color: #00423E;
+  width: 50px;
+  height: 50px;
+  border-radius: 0.25rem;
+  top: auto;
+  bottom: 30px;
+  left: auto;
+  transition: all 0.15s ease-in-out;
+}
+.main .swiper-button-prev:hover, .main .swiper-button-next:hover {
+  background-color: #3E9E6C;
+}
+.main .swiper-button-prev:after, .main .swiper-button-next:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.main .swiper-button-prev {
+  right: 410px;
+}
+.main .swiper-button-prev:after {
+  content: "";
+  border-style: solid;
+  border-width: 5px 10px 5px 0;
+  border-color: transparent #3FDD6E transparent transparent;
+}
+.main .swiper-button-next {
+  right: 350px;
+}
+.main .swiper-button-next::after {
+  content: "";
+  border-style: solid;
+  border-width: 5px 0 5px 10px;
+  border-color: transparent transparent transparent #3FDD6E;
 }
 
 /*# sourceMappingURL=global.css.map */

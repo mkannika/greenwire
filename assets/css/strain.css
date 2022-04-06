@@ -71,48 +71,6 @@ section a:hover {
 section.main {
   margin-bottom: 100px;
 }
-section .product-details-percent, section .product-details-tags {
-  color: #000000;
-  font-size: var(--font-size);
-}
-section .product-details-percent .btn-outline, section .product-details-tags .btn-outline {
-  border-color: #d0d0d0;
-}
-section .product-details-percent .btn-outline:hover, section .product-details-tags .btn-outline:hover {
-  background-color: #d0d0d0;
-  color: #fff !important;
-}
-section .product-details-percent .btn-default, section .product-details-tags .btn-default {
-  background-color: #EAEAEA;
-  font-size: var(--font-size);
-}
-section .product-details-percent {
-  margin-bottom: 1.5rem;
-}
-section .product-details-percent ul {
-  list-style: none;
-  padding: 0 0 0 10px;
-  margin: 0;
-  max-width: 180px;
-  grid-template-columns: 1fr 1fr;
-  white-space: nowrap;
-}
-section .product-details-percent ul img {
-  margin-right: 0.25rem;
-}
-section .product-details-percent ul li + li {
-  margin-left: 0.5rem;
-}
-section .product-details-tags .btn {
-  padding: 12px;
-  font-size: var(--font-size);
-}
-section .product-details-tags img {
-  margin-right: 0.25rem;
-}
-section .product-details-tags span + span {
-  margin-left: 0.5rem;
-}
 section .card-img {
   border: 1px solid #EAEAEA;
   padding: 1rem;
@@ -125,29 +83,6 @@ section .card-text {
 }
 section .card-rating .star-rating label {
   font-size: var(--font-size);
-}
-section .card-favorite {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  color: #3E9E6C;
-  cursor: pointer;
-}
-section .card-favorite:before {
-  content: "\f417";
-  display: inline-block;
-  font-family: bootstrap-icons !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  vertical-align: -0.125em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-section .card-favorite.active:before, section .card-favorite:hover:before {
-  content: "\f415";
 }
 
 /*# sourceMappingURL=strain.css.map */

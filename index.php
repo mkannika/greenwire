@@ -510,7 +510,7 @@
                         <div class="col-md-3 px-0 border-end">
                             <!-- Filter -->
                             <div class="filter-header border-bottom p-4">
-                                <div class="filter-by-type btn-filter">
+                                <div class="filter-by-type btn-filter pt-4">
                                     <button class="btn active filter-button" data-filter="all">All</button>
                                     <button class="btn filter-button" data-filter="pickup">Pickup</button>
                                     <button class="btn filter-button" data-filter="delivery">Delivery</button>

@@ -179,10 +179,6 @@ section .progress-bar {
 .main .review-wrapper a {
   text-decoration: underline;
 }
-.main .review-wrapper span {
-  color: #bfbfbf;
-  font-size: 16px;
-}
 .main .review-wrapper .btn-outline {
   border-color: #3E9E6C;
   background: transparent;
@@ -193,6 +189,7 @@ section .progress-bar {
   min-width: 130px;
   text-transform: uppercase;
   border-width: 1px;
+  text-decoration: none;
 }
 .main .review-wrapper .btn-outline:hover {
   background-color: #3E9E6C;
@@ -249,6 +246,10 @@ section .progress-bar {
   border: none;
   margin: 0 0 0 15px;
   padding: 0 0 0 15px;
+}
+.main .review-title span {
+  color: #bfbfbf;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=strain_detail.css.map */

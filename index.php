@@ -665,7 +665,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-outline">Read more</a>
+                                    <a href="./strain_detail.php" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -718,7 +718,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-outline">Read more</a>
+                                    <a href="./strain_detail.php" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -771,7 +771,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-outline">Read more</a>
+                                    <a href="./strain_detail.php" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -824,7 +824,7 @@
                                         16</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="" class="btn btn-outline">Read more</a>
+                                    <a href="./strain_detail.php" class="btn btn-outline">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -856,7 +856,6 @@
                             <li class="page-item">
                                 <a class="page-link" href="#"><i class="bi bi-caret-right-fill"></i></a>
                             </li>
-
                         </ul>
                     </nav>
                 </div>

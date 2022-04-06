@@ -153,10 +153,6 @@ section {
 			a {
 				text-decoration: underline;
 			}
-			span {
-				color: #bfbfbf;
-				font-size: 16px;
-			}
 			.btn-outline {
 				border-color: $color-green;
 				background: transparent;
@@ -167,6 +163,7 @@ section {
 				min-width: 130px;
 				text-transform: uppercase;
 				border-width: 1px;
+				text-decoration: none;
 
 				&:hover {
 					background-color: $color-green;
@@ -179,7 +176,7 @@ section {
 				}
 				.card {
 					border-radius: 15px;
-                    margin-bottom: 30px;
+					margin-bottom: 30px;
 					&-header {
 						background-color: transparent;
 						display: flex;
@@ -230,6 +227,12 @@ section {
 						padding: 0 0 0 15px;
 					}
 				}
+			}
+		}
+		&-title {
+			span {
+				color: #bfbfbf;
+				font-size: 16px;
 			}
 		}
 	}

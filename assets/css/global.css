@@ -384,6 +384,33 @@ aside.sidebar .accordion-footer ul a:hover {
   justify-content: center;
   margin-bottom: 0;
 }
+.pagination-wrapper {
+  color: #3E9E6C;
+  font-family: "Basier Circle Medium";
+}
+.pagination-wrapper .pagination .page-link {
+  text-decoration: none;
+  border-radius: 0.25rem;
+  padding: 0.375rem 1rem;
+  color: #AAAAAA;
+}
+.pagination-wrapper .pagination .page-link.prev, .pagination-wrapper .pagination .page-link.next {
+  color: #3E9E6C;
+}
+.pagination-wrapper .pagination .page-link.active {
+  border-color: #3E9E6C;
+  color: #3E9E6C;
+}
+.pagination-wrapper .pagination .page-link:hover {
+  color: #3E9E6C;
+  border-color: #3E9E6C !important;
+}
+.pagination-wrapper .pagination .disabled {
+  text-decoration: none;
+}
+.pagination-wrapper .pagination .disabled .page-link {
+  color: #3E9E6C;
+}
 .pagination .page-link {
   color: #f7c67f;
   background-color: transparent;
@@ -604,7 +631,7 @@ aside.sidebar .accordion-footer ul a:hover {
   display: flex;
   width: auto;
   align-items: center;
-  background: #EAEAEA;
+  background: #eaeaea;
   border-radius: 20px;
   padding: 5px 20px;
   top: 10px;

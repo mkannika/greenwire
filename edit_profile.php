@@ -36,7 +36,7 @@
 					</div>
 					<div class="col col-content">
 						<h1>Edit profile</h1>
-						<form action="">
+						<form action="" method="post">
 							<div class="form-group">
 								<label for="name">ชื่อจริง</label>
 								<input type="text" id="name" name="name">
@@ -48,35 +48,35 @@
 								<small>คุณสามารถใช้ข้อมูลนี้เพื่อเข้าสู่ระบบ และร้านค้าจะเห็นข้อมูลนี้เมื่อคุณตรวจสอบ</small>
 							</div>
 							<div class="form-group">
-								<labe for="date">Date of birth</label>
+								<label for="date">วันเกิด</label>
 								<input type="date" id="date" name="birthdate">
 								<small>สิ่งนี้ช่วยให้เราเข้าใจว่าใครกำลังใช้ Greenwire</small>
 							</div>
-							<div class="form-group">
-								<div class="email-verified">
-									<img src="assets/images/Email-verified.png" alt="email verified icon">
-									Email verified
-								</div>
-								<labe for="email">อีเมล</label>
-								<input type="email" id="email" name="email">
-								<small>สิ่งนี้ช่วยให้เราเข้าใจว่าใครกำลังใช้ Greenwire</small>
+							<div class="email-verified d-flex align-items-center">
+								<img src="assets/images/Email-verified.png" alt="email verified icon">
+								Email verified
 							</div>
 							<div class="form-group">
-								<labe for="phone">เบอร์โทร</label>
+								<label for="email">อีเมล</label>
+								<input type="email" id="email" name="email">
+							</div>
+							<div class="form-group">
+								<label for="phone">เบอร์โทร</label>
 								<input type="text" id="phone" name="phone">
 								<small>เราจะไม่แชร์สิ่งนี้โดยไม่ได้รับอนุญาตจากคุณ</small>
 							</div>
+							<h2>Address</h2>
 							<div class="form-group">
-								<labe for="adress">จังหวัด, เขตอำเภอ, รหัสไปรษณีย์</label>
-								<input type="text" id="adress" name="adress">
+								<label for="address">จังหวัด, เขตอำเภอ, รหัสไปรษณีย์</label>
+								<input type="text" id="address" name="address">
 							</div>
 							<div class="form-group">
-								<labe for="adress2">รายละเอียดที่อยู่</label>
-								<input type="text" id="adress2" name="adress2">
+								<label for="address2">รายละเอียดที่อยู่</label>
+								<input type="text" id="address2" name="address2">
 							</div>
-							<div class="form-group">
-								<button type="submit">บันทึก</button>
-								<button type="reset">ยกเลิก</button>
+							<div class="form-group btn-group d-flex align-items-center">
+								<button type="submit" class="submit-btn d-flex align-items-center justify-content-center">บันทึก</button>
+								<button type="reset" class="reset-btn">ยกเลิก</button>
 							</div>
 						</form>
 					</div>
@@ -85,6 +85,6 @@
 		</section>
 	</article>
 	<?php include 'elements/footer.php'; ?>
-	<script src="assets/js/favorite_strains.js"></script>
+	<script src="assets/js/edit_profile.js"></script>
 </body>
 </html>

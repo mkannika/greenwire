@@ -107,20 +107,74 @@ article .section-profile .col-content form .form-group label {
   top: 22px;
   left: 22px;
   color: #3E9E6C;
+  transition: all 0.3s;
+}
+article .section-profile .col-content form .form-group label.has-focus {
+  top: 9px;
+  font-size: 12px;
 }
 article .section-profile .col-content form .form-group input {
   width: 100%;
   height: 66px;
+  color: #3E9E6C;
   padding: 30px 22px 15px 22px;
   border: 1px solid #3E9E6C;
   border-radius: 3px;
   outline: none;
+}
+article .section-profile .col-content form .form-group input#email, article .section-profile .col-content form .form-group input#address {
+  margin-bottom: 15px;
+}
+article .section-profile .col-content form .form-group input::-webkit-datetime-edit, article .section-profile .col-content form .form-group input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+article .section-profile .col-content form .form-group input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+article .section-profile .col-content form .form-group input:focus::-webkit-datetime-edit, article .section-profile .col-content form .form-group input:focus::-webkit-calendar-picker-indicator {
+  opacity: 1;
 }
 article .section-profile .col-content form .form-group small {
   font-size: 12px;
   color: #636363;
   margin: 9px 0 25px 0;
   display: block;
+}
+article .section-profile .col-content form .form-group.btn-group {
+  margin-top: 35px;
+}
+article .section-profile .col-content form .form-group.btn-group button.submit-btn {
+  font-size: 20px;
+  width: 271px;
+  height: 70px;
+  margin-right: 38px;
+  background: #3E9E6C;
+  border: 0;
+  border-radius: 35px;
+  outline: none;
+}
+article .section-profile .col-content form .form-group.btn-group button.reset-btn {
+  font-size: 20px;
+  color: #636363;
+  text-decoration: underline;
+  background: #0000;
+  border: 0;
+  outline: none;
+}
+article .section-profile .col-content form .email-verified {
+  font-size: 12px;
+  color: #636363;
+  margin: 44px 0 11px 0;
+}
+article .section-profile .col-content form .email-verified img {
+  margin-right: 10px;
+}
+article .section-profile .col-content form h2 {
+  font-family: "Basier Circle Medium";
+  font-size: 16px;
+  color: #3E9E6C;
+  margin: 48px 0 22px 0;
 }
 
 /*# sourceMappingURL=edit_profile.css.map */

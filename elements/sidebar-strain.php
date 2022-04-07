@@ -9,25 +9,25 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFilter">
                 <div class="accordion-body">
-                    <div class="form-check">
+                    <div class="form-check form-check-green">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
                             No THC 0% (9)
                         </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check form-check-green">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
                             Low 1-10% (95)
                         </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check form-check-green">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
                             Medium 10-20% (1884)
                         </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check form-check-green">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
                             High >20% (1248)

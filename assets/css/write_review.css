@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Basier Circle Bold";
+  src: url("../fonts/BasierCircle-Bold.eot");
+  src: url("../fonts/BasierCircle-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Bold.woff2") format("woff2"), url("../fonts/BasierCircle-Bold.woff") format("woff"), url("../fonts/BasierCircle-Bold.ttf") format("truetype"), url("../fonts/BasierCircle-Bold.svg#BasierCircle-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle SemiBold";
+  src: url("../fonts/BasierCircle-SemiBold.eot");
+  src: url("../fonts/BasierCircle-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-SemiBold.woff2") format("woff2"), url("../fonts/BasierCircle-SemiBold.woff") format("woff"), url("../fonts/BasierCircle-SemiBold.ttf") format("truetype"), url("../fonts/BasierCircle-SemiBold.svg#BasierCircle-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle Medium";
+  src: url("../fonts/BasierCircle-Medium.eot");
+  src: url("../fonts/BasierCircle-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Medium.woff2") format("woff2"), url("../fonts/BasierCircle-Medium.woff") format("woff"), url("../fonts/BasierCircle-Medium.ttf") format("truetype"), url("../fonts/BasierCircle-Medium.svg#BasierCircle-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle Regular";
+  src: url("../fonts/BasierCircle-Regular.eot");
+  src: url("../fonts/BasierCircle-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Regular.woff2") format("woff2"), url("../fonts/BasierCircle-Regular.woff") format("woff"), url("../fonts/BasierCircle-Regular.ttf") format("truetype"), url("../fonts/BasierCircle-Regular.svg#BasierCircle-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Thonburi Bold";
+  src: url("../fonts/SFThonburi-Bold.eot");
+  src: url("../fonts/SFThonburi-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFThonburi-Bold.woff2") format("woff2"), url("../fonts/SFThonburi-Bold.woff") format("woff"), url("../fonts/SFThonburi-Bold.ttf") format("truetype"), url("../fonts/SFThonburi-Bold.svg#SFThonburi-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Thonburi Regular";
+  src: url("../fonts/SFThonburi-Regular.eot");
+  src: url("../fonts/SFThonburi-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFThonburi-Regular.woff2") format("woff2"), url("../fonts/SFThonburi-Regular.woff") format("woff"), url("../fonts/SFThonburi-Regular.ttf") format("truetype"), url("../fonts/SFThonburi-Regular.svg#SFThonburi-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+section {
+  --space: 5rem;
+  --font-size: 12px;
+}
+section h1,
+section h2,
+section h3,
+section h4 {
+  color: #3E9E6C;
+  font-family: "Basier Circle Medium";
+}
+section h4 {
+  font-size: 18px;
+}
+section a {
+  color: #3E9E6C;
+}
+section a:not([href]):not([class]), section a:not([href]):not([class]):hover {
+  color: #3E9E6C;
+  text-decoration: underline;
+}
+section a:hover {
+  color: #3E9E6C;
+  text-decoration: none;
+}
+
+article .review-title span {
+  color: #bfbfbf;
+  font-size: 16px;
+}
+article .review-write .product-details-tags {
+  justify-content: space-between;
+}
+article .review-write .btn {
+  width: calc(16.6666666667% - 0.5rem);
+  margin: 0 0 0.5rem;
+}
+@media screen and (max-width: 991px) {
+  article .review-write .btn {
+    width: calc(33.3333333333% - 0.5rem);
+  }
+}
+@media screen and (max-width: 575px) {
+  article .review-write .btn {
+    width: calc(50% - 0.5rem);
+  }
+}
+article .review-header {
+  display: flex;
+  align-items: center;
+}
+article .review-img {
+  max-width: 70px;
+  margin-right: 10px;
+}
+article .card-body {
+  padding: 1rem;
+  height: 130px;
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+article .card-rating {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+article .card-rating .star-rating label {
+  font-size: 30px;
+}
+article .card-vote .form-check {
+  width: calc(50% - 2rem);
+}
+article .comment-content textarea {
+  background: #f6f7f6;
+  width: 100%;
+  border-radius: 12px;
+  border-color: #e7e7e7;
+  padding: 1.5rem;
+  resize: none;
+}
+article .comment-content textarea:focus {
+  box-shadow: none;
+  outline: none;
+}
+article .comment-content .btn-link {
+  background: transparent;
+  border: none;
+  color: #707170;
+  margin-right: 1.5rem;
+}
+article .comment-desc {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  color: #b5b5b5;
+  font-size: 90%;
+}
+
+/*# sourceMappingURL=write_review.css.map */

@@ -7,8 +7,8 @@
 				</div>
 				<div class="col">
 					<div class="auth_button d-flex align-items-center justify-content-end">
-						<a href="#" class="d-flex align-items-center"><img src="assets/images/register.svg" alt="pin icon">Register</a>
-						<a href="#" class="d-flex align-items-center"><img src="assets/images/login.svg" alt="pin icon">Login</a>
+						<a href="register.php" class="d-flex align-items-center"><img src="assets/images/register.svg" alt="pin icon">Register</a>
+						<a href="login.php" class="d-flex align-items-center"><img src="assets/images/login.svg" alt="pin icon">Login</a>
 					</div>
 					<div class="user_profile d-flex align-items-center justify-content-end">
 						<div class="user_welcome d-flex align-items-center">

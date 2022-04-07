@@ -42,11 +42,11 @@
                     <div class="border-bottom my-4"></div>
                     
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-12">
                             <div class="card border">
-                                <div class="card-body">
+                                <div class="card-body text-center">
                                     <p class="card-text">ให้กี่ดาวคะ?</p>
-                                    <div class="card-rating">
+                                    <div class="card-rating justify-content-center">
                                         <div class="star-rating">
                                             <input id="box1-star-5" type="radio" name="rating" value="star-5" />
                                             <label for="box1-star-5" title="5 stars">
@@ -78,28 +78,28 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-12">
                             <div class="card border">
                                 <div class="card-body">
                                     <p class="card-text">ได้รับความรู้สึกอย่างไร?</p>
                                     <div class="card-vote">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            <input class="form-check-input form-radio-green" type="radio" name="inlineRadioOptions"
                                                 id="inlineRadio1" value="option1">
                                             <label class="form-check-label" for="inlineRadio1">กลิ่นหอม</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            <input class="form-check-input form-radio-green" type="radio" name="inlineRadioOptions"
                                                 id="inlineRadio2" value="option2">
                                             <label class="form-check-label" for="inlineRadio2">มีสมาธิ</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            <input class="form-check-input form-radio-green" type="radio" name="inlineRadioOptions"
                                                 id="inlineRadio3" value="option3">
                                             <label class="form-check-label" for="inlineRadio3">กินได้</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            <input class="form-check-input form-radio-green" type="radio" name="inlineRadioOptions"
                                                 id="inlineRadio4" value="option4">
                                             <label class="form-check-label" for="inlineRadio4">ดำมืด</label>
                                         </div>
@@ -417,32 +417,32 @@
                     <div class="border-bottom my-4"></div>
 
                     <!-- Comment -->
-                    <div id="comment">
+                    <div id="comment" class="comment">
                         <h2>มีความคิดเพิ่มเติมหรือไม่?</h2>
                         <p>ข้อมูลของคุณมีความสำคัญและช่วยสร้างชุมชนกัญชาของเราที่ Greenwire</p>
-                        <div class="comment-content">
+                        <div class="comment-content my-4">
                             <form class="row align-items-center">
                                 <div class="col-12">
                                     <textarea name="" id="" cols="30" rows="10" placeholder="แชร์ประสบการณ์ของคุณ . . ."></textarea>
                                 </div>
 
-                                <div class="col-12">
-                                    <div class="form-check">
+                                <div class="col-12 d-flex align-items-center">
+                                    <div class="form-check form-check-green my-4">
                                         <input class="form-check-input" type="checkbox" id="inlineFormCheck">
                                         <label class="form-check-label" for="inlineFormCheck">
                                             บันทึกเป็นบทวิจารณ์ส่วนตัว
                                         </label>
                                     </div>
+                                    <div class="border comment-desc">บทวิจารณ์ทั้งหมดจะได้รับการยืนยันหลังจากส่ง โปรดให้เวลาเราก่อนที่จะปรากฏในหน้า ขอขอบคุณ.</div>
                                 </div>
 
-                                <div class="col-12">
-                                    <button>ยกเลิก</button>
-                                    <button type="submit" class="btn btn-primary">เผยแพร่บทวิจารณ์</button>
+                                <div class="col-12 my-4">
+                                    <button class="btn-link mr-2">ยกเลิก</button>
+                                    <button type="submit" class="btn btn-primary m-0">เผยแพร่บทวิจารณ์</button>
                                 </div>
                             </form>
                         </div>
                     </div>
-
                 </div>
             </section>
         </div>

@@ -312,6 +312,30 @@ article {
 	.border-start {
 		border-color: $color-grey !important;
 	}
+
+	.btn-primary {
+		background-color: $color-green;
+		border-color: $color-green;
+		border-radius: 40px;
+		font-size: 14px;
+		padding: 10px 30px;
+		min-width: 130px;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $color-green-dark;
+			border-color: $color-green-dark;
+		}
+	}
+
+	.btn-outline {
+		border: 2px solid $color-white;
+
+		&:hover {
+			background-color: $color-white;
+			color: $color-green !important;
+		}
+	}
 }
 
 aside {
@@ -365,28 +389,6 @@ aside {
 				padding-left: 0;
 				padding-right: 0;
 				padding-top: 0;
-				.form-check {
-					font-size: 90%;
-					padding-top: 0.5rem;
-					padding-bottom: 0.5rem;
-					color: $color-black;
-					.form-check-input {
-						border-color: $color-green;
-						border-width: 2px;
-						&:checked[type="checkbox"] {
-							background-image: none;
-						}
-						&:checked {
-							background-color: $color-green;
-							border-color: $color-green;
-						}
-						&:focus {
-							box-shadow: none;
-							outline: none;
-							border-color: $color-green;
-						}
-					}
-				}
 			}
 			&-footer {
 				ul {
@@ -406,6 +408,43 @@ aside {
 	}
 }
 
+// Checkbox
+.form-check-green {
+	font-size: 90%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	color: $color-black;
+	.form-check-input {
+		border-color: $color-green;
+		border-width: 2px;
+		&:checked[type="checkbox"] {
+			background-image: none;
+		}
+		&:checked {
+			background-color: $color-green;
+			border-color: $color-green;
+		}
+		&:focus {
+			box-shadow: none;
+			outline: none;
+			border-color: $color-green;
+		}
+	}
+}
+.form-radio-green {
+	border-color: $color-green;
+	&:checked {
+		background-color: $color-green;
+		border-color: $color-green;
+	}
+	&:checked[type="radio"] {
+		background-image: none;
+	}
+	&:focus {
+		box-shadow: none;
+	}
+}
+
 // Pagination
 .pagination {
 	justify-content: center;
@@ -419,9 +458,9 @@ aside {
 				text-decoration: none;
 				border-radius: 0.25rem;
 				padding: 0.375rem 1rem;
-				color: #AAAAAA;
+				color: #aaaaaa;
 				&.prev,
-				&.next{
+				&.next {
 					color: $color-green;
 				}
 				&.active {
@@ -811,6 +850,7 @@ aside {
 
 		.btn-outline {
 			border-color: #d0d0d0;
+			border-width: 1px;
 
 			&:hover {
 				background-color: #d0d0d0;

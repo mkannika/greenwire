@@ -91,26 +91,6 @@ section select:after {
   border-width: 5px 5px 0 5px;
   border-color: #3E9E6C transparent transparent transparent;
 }
-section .btn-primary {
-  background-color: #3E9E6C;
-  border-color: #3E9E6C;
-  border-radius: 40px;
-  font-size: 14px;
-  padding: 10px 30px;
-  min-width: 130px;
-  text-transform: uppercase;
-}
-section .btn-primary:hover {
-  background-color: #00423E;
-  border-color: #00423E;
-}
-section .btn-outline {
-  border: 2px solid #fff;
-}
-section .btn-outline:hover {
-  background-color: #fff;
-  color: #3E9E6C !important;
-}
 section .badge-primary {
   border: 2px solid #d0d0d0;
 }

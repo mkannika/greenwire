@@ -614,7 +614,7 @@
                 <div class="review-wrapper px-5 mb-5">
                     <div class="d-flex justify-content-between mb-4">
                         <h2 class="review-title">Reviews <span>(1,845)</span></h2>
-                        <a href="#" class="btn btn-outline">เขียนบทวิจารณ์</a>
+                        <a href="./write_review.php" class="btn btn-outline">เขียนบทวิจารณ์</a>
                     </div>
                     <div class="review-list mb-5">
                         <div class="card border">

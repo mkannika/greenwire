@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Basier Circle Bold";
+  src: url("../fonts/BasierCircle-Bold.eot");
+  src: url("../fonts/BasierCircle-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Bold.woff2") format("woff2"), url("../fonts/BasierCircle-Bold.woff") format("woff"), url("../fonts/BasierCircle-Bold.ttf") format("truetype"), url("../fonts/BasierCircle-Bold.svg#BasierCircle-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle SemiBold";
+  src: url("../fonts/BasierCircle-SemiBold.eot");
+  src: url("../fonts/BasierCircle-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-SemiBold.woff2") format("woff2"), url("../fonts/BasierCircle-SemiBold.woff") format("woff"), url("../fonts/BasierCircle-SemiBold.ttf") format("truetype"), url("../fonts/BasierCircle-SemiBold.svg#BasierCircle-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle Medium";
+  src: url("../fonts/BasierCircle-Medium.eot");
+  src: url("../fonts/BasierCircle-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Medium.woff2") format("woff2"), url("../fonts/BasierCircle-Medium.woff") format("woff"), url("../fonts/BasierCircle-Medium.ttf") format("truetype"), url("../fonts/BasierCircle-Medium.svg#BasierCircle-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Basier Circle Regular";
+  src: url("../fonts/BasierCircle-Regular.eot");
+  src: url("../fonts/BasierCircle-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BasierCircle-Regular.woff2") format("woff2"), url("../fonts/BasierCircle-Regular.woff") format("woff"), url("../fonts/BasierCircle-Regular.ttf") format("truetype"), url("../fonts/BasierCircle-Regular.svg#BasierCircle-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Thonburi Bold";
+  src: url("../fonts/SFThonburi-Bold.eot");
+  src: url("../fonts/SFThonburi-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFThonburi-Bold.woff2") format("woff2"), url("../fonts/SFThonburi-Bold.woff") format("woff"), url("../fonts/SFThonburi-Bold.ttf") format("truetype"), url("../fonts/SFThonburi-Bold.svg#SFThonburi-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Thonburi Regular";
+  src: url("../fonts/SFThonburi-Regular.eot");
+  src: url("../fonts/SFThonburi-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SFThonburi-Regular.woff2") format("woff2"), url("../fonts/SFThonburi-Regular.woff") format("woff"), url("../fonts/SFThonburi-Regular.ttf") format("truetype"), url("../fonts/SFThonburi-Regular.svg#SFThonburi-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+section {
+  --space: 5rem;
+  --font-size: 12px;
+}
+section h1,
+section h2,
+section h3,
+section h4 {
+  color: #3E9E6C;
+  font-family: "Basier Circle Medium";
+}
+section h4 {
+  font-size: 18px;
+}
+section a {
+  color: #3E9E6C;
+}
+section a:not([href]):not([class]), section a:not([href]):not([class]):hover {
+  color: #3E9E6C;
+  text-decoration: underline;
+}
+section a:hover {
+  color: #3E9E6C;
+  text-decoration: none;
+}
+
+.shop-location {
+  padding-top: var(--space);
+}
+.shop-location .btn-default {
+  border-radius: 0.25rem !important;
+  border: 1px solid #EAEAEA;
+  color: #3E9E6C;
+  margin-bottom: 1rem;
+  padding: 5px 7px;
+}
+.shop-location .filter-header {
+  font-size: 16px;
+  font-family: "Basier Circle Medium";
+}
+.shop-location .filter-header .btn-filter {
+  margin-bottom: 1rem;
+}
+.shop-location .filter-header .btn-filter .btn {
+  color: #3E9E6C;
+  border-radius: 60px;
+  padding: 8px 16px;
+  min-width: 50px;
+}
+.shop-location .filter-header .btn-filter .btn.active, .shop-location .filter-header .btn-filter .btn:hover {
+  background: #00423e;
+}
+.shop-location .filter-header h3 {
+  font-size: 16px;
+  font-family: "Basier Circle Medium";
+}
+.shop-location .filter-by-tag .btn-group {
+  padding: 1rem;
+  font-family: "Basier Circle Medium";
+}
+.shop-location .filter-result,
+.shop-location .sort,
+.shop-location .form-control {
+  font-size: 90%;
+}
+.shop-location .form-control {
+  padding: 0;
+  border: none;
+  margin-left: 10px;
+}
+.shop-location label {
+  white-space: nowrap;
+}
+.shop-location .card {
+  font-size: 90%;
+}
+.shop-location .card-img-top {
+  height: 100px;
+  overflow: hidden;
+}
+.shop-location .card-img-top img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+.shop-location .card-status {
+  font-size: 85%;
+  display: flex;
+  align-items: center;
+}
+.shop-location .card-status .close {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #c70909;
+  display: inline-block;
+  margin-right: 5px;
+}
+.shop-location .card-footer {
+  font-size: 90%;
+}
+.shop-location .card .btn-sale {
+  background: #ce1090;
+  color: #fff;
+  font-size: 90%;
+}
+.shop-location .google-map {
+  background: url("../images/home/mockup_map.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.shop-results .border {
+  padding: 0.5rem 1rem;
+  border-radius: 60px;
+  font-size: 80%;
+  margin-bottom: 2rem;
+}
+.shop-results .card-img-top {
+  height: 200px;
+}
+.shop-results .card-img-top img {
+  object-position: center;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.shop-results .btn-outline {
+  border-color: #3E9E6C;
+  background: transparent;
+  color: #3E9E6C;
+  text-transform: capitalize;
+  border-radius: 60px;
+  padding: 10px 30px;
+  min-width: 130px;
+  text-transform: uppercase;
+  border-width: 1px;
+}
+.shop-results .btn-outline:hover {
+  background-color: #3E9E6C;
+  color: #fff !important;
+}
+.shop-results .pagination {
+  padding-top: var(--space);
+  padding-bottom: var(--space);
+}
+
+/*# sourceMappingURL=dispensaries.css.map */

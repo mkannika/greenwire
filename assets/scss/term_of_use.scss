@@ -1,0 +1,25 @@
+@import "assets/_variables";
+@import "assets/fonts";
+
+article {
+    .section- {
+        &content {
+            margin: 53px 0 155px 0;
+            h1, h2 {
+                font-family: $font-Basier-semiBold;
+                font-size: 21px;
+                color: $color-green;
+                margin-bottom: 25px;
+            }
+            hr {
+                margin: 64px 0 25px 0;
+                background: $color-grey;
+                opacity: 1;
+            }
+            p {
+                color: $color-black;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

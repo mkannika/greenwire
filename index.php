@@ -860,7 +860,6 @@
                     </nav>
                 </div>
             </div>
-
         </section>
 
          <!-- Welcome -->

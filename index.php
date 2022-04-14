@@ -862,8 +862,8 @@
             </div>
         </section>
 
-         <!-- Welcome -->
-         <section id="welcome" class="section-welcome border-top">
+        <!-- Welcome -->
+        <section id="welcome" class="section-welcome border-top">
             <div class="container">
                 <div class="text-center mb-4">
                     <h2>Welcome to Greenwire</h2>

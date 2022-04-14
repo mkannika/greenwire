@@ -40,10 +40,10 @@
 				<div class="col d-flex align-items-center justify-content-end">
 					<nav>
 						<ul>
-							<li><a href="#">Strain</a></li>
-							<li><a href="#">Dispensaries</a></li>
-							<li><a href="#">Learn</a></li>
-							<li><a href="#">Product</a></li>
+							<li><a href="./strain.php">Strain</a></li>
+							<li><a href="./dispensaries.php">Dispensaries</a></li>
+							<li><a href="./learn.php">Learn</a></li>
+							<li><a href="./product.php">Product</a></li>
 						</ul>
 					</nav>
 				</div>

@@ -80,7 +80,7 @@
                         <h2 class="text-green mb-3">Popular topics</h2>
                         <div class="row">
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_01.jpg" alt="Mock up">
                                     </div>
@@ -91,10 +91,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_02.jpg" alt="Mock up">
                                     </div>
@@ -105,10 +105,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_03.jpg" alt="Mock up">
                                     </div>
@@ -119,10 +119,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_04.jpg" alt="Mock up">
                                     </div>
@@ -133,14 +133,14 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
                         <h2 class="text-green my-4">Cannabis history</h2>
                         <div class="row">
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_01.jpg" alt="Mock up">
                                     </div>
@@ -151,10 +151,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_02.jpg" alt="Mock up">
                                     </div>
@@ -165,10 +165,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_03.jpg" alt="Mock up">
                                     </div>
@@ -179,10 +179,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_04.jpg" alt="Mock up">
                                     </div>
@@ -193,14 +193,14 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
                         <h2 class="text-green my-4">Get baked</h2>
                         <div class="row">
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_01.jpg" alt="Mock up">
                                     </div>
@@ -211,10 +211,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_02.jpg" alt="Mock up">
                                     </div>
@@ -225,10 +225,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_03.jpg" alt="Mock up">
                                     </div>
@@ -239,10 +239,10 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xl-3">
-                                <div class="card">
+                                <a href="./learn_detail.php" class="card">
                                     <div class="card-img">
                                         <img src="./assets/images/learn/learn_04.jpg" alt="Mock up">
                                     </div>
@@ -253,10 +253,9 @@
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
                                         <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </section>

@@ -47,26 +47,53 @@
                             <div class="share-this-page">
                                 <ul class="list-inline">
                                     <li>
-                                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i
+                                                class="bi bi-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i
+                                                class="bi bi-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+                                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Email"><i
+                                                class="bi bi-envelope-fill"></i></a>
                                     </li>
                                     <li>
-                                        <a href="3" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                                        <a href="3" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i
+                                                class="bi bi-linkedin"></i></a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="details">
-                            <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960 เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย</p>
-                            <p>ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960 เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย</p>
+                            <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                                เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง
+                                Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ
+                                แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์
+                                และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960
+                                เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น
+                                คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา
+                                Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย</p>
+                            <p>ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                                เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง
+                                Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ
+                                แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์
+                                และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960
+                                เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น
+                                คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา
+                                Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย</p>
+                            <div class="aspect-ratio">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/SLzj3LP-7SE"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
                         </div>
-                        <div class="border-bottom my-4"></div>
+                        <div class="border-bottom mt-5 mb-4"></div>
 
+                        <!-- Related -->
                         <h2 class="text-green mb-3">Relate topics</h2>
                         <div class="row">
                             <div class="col-md-6 col-xl-3">
@@ -79,7 +106,10 @@
                                             <div class="card-tag">Cannabis 101</div>
                                         </div>
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                            มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                                        </p>
                                     </div>
                                 </a>
                             </div>
@@ -93,7 +123,10 @@
                                             <div class="card-tag">Cannabis 101</div>
                                         </div>
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                            มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                                        </p>
                                     </div>
                                 </a>
                             </div>
@@ -107,7 +140,10 @@
                                             <div class="card-tag">Cannabis 101</div>
                                         </div>
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                            มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                                        </p>
                                     </div>
                                 </a>
                             </div>
@@ -121,9 +157,115 @@
                                             <div class="card-tag">Cannabis 101</div>
                                         </div>
                                         <h3 class="card-title">How to smoke weed imageImage</h3>
-                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
+                                        <p class="card-text">เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                            มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                                        </p>
                                     </div>
                                 </a>
+                            </div>
+                        </div>
+
+                        <!-- Review -->
+                        <div class="review-wrapper mb-5">
+                            <div class="d-flex justify-content-between mb-4 mt-4">
+                                <h2 class="review-title">Reviews <span>(1,845)</span></h2>
+                                <!-- <a href="./write_review.php" class="btn btn-outline">เขียนบทวิจารณ์</a> -->
+                            </div>
+                            <div class="review-list mb-5">
+                                <div class="card border">
+                                    <div class="card-header">
+                                        <div class="card-info">
+                                            <div class="author">Aroon Chirapaisarnsakul</div>
+                                            <div class="card-rating border-start">
+                                                <div class="star-rating">
+                                                    <input id="box1-star-5" type="radio" name="rating" value="star-5" />
+                                                    <label for="box1-star-5" title="5 stars">
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-4" type="radio" name="rating" value="star-4" />
+                                                    <label for="box1-star-4" title="4 stars">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-3" type="radio" name="rating" value="star-3" />
+                                                    <label for="box1-star-3" title="3 stars">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-2" type="radio" name="rating" value="star-2" />
+                                                    <label for="box1-star-2" title="2 stars">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                    <input id="box1-star-1" type="radio" name="rating" value="star-1" />
+                                                    <label for="box1-star-1" title="1 star">
+                                                        <i class="bi bi-star-fill active"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-date">September 11, 2017</div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            เนื้อหาจำลองแบบเรียบๆ
+                                            ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                                            มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                                            เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง
+                                            Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ
+                                            แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์
+                                            และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค
+                                            ค.ศ.
+                                            1960 เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum
+                                            และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing)
+                                            อย่าง
+                                            Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย
+                                        </p>
+                                        <div class="card-footer d-flex justify-content-between">
+                                            <div class="card-helpful">
+                                                <p class="card-desc"><span>1072</span> people found this helpful</p>
+                                                <p class="btn-helpful"><i class="bi bi-hand-thumbs-up"></i>Helpful</p>
+                                            </div>
+                                            <a href="./strain_review.php">Read full review</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Write review -->
+                        <div class="review-write">
+                            <!-- Comment -->
+                            <div id="comment" class="comment">
+                                <h2>มีความคิดเพิ่มเติมหรือไม่?</h2>
+                                <p>ข้อมูลของคุณมีความสำคัญและช่วยสร้างชุมชนกัญชาของเราที่ Greenwire</p>
+                                <div class="comment-content my-4">
+                                    <form class="row align-items-center">
+                                        <div class="col-12">
+                                            <textarea name="" id="" cols="30" rows="10"
+                                                placeholder="แชร์ประสบการณ์ของคุณ . . ."></textarea>
+                                        </div>
+
+                                        <!-- <div class="col-12 d-flex align-items-center">
+                                            <div class="form-check form-check-green my-4">
+                                                <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                                <label class="form-check-label" for="inlineFormCheck">
+                                                    บันทึกเป็นบทวิจารณ์ส่วนตัว
+                                                </label>
+                                            </div>
+                                            <div class="border comment-desc">บทวิจารณ์ทั้งหมดจะได้รับการยืนยันหลังจากส่ง
+                                                โปรดให้เวลาเราก่อนที่จะปรากฏในหน้า ขอขอบคุณ.</div>
+                                        </div> -->
+
+                                        <div class="col-12 my-4">
+                                            <button class="btn-link mr-2">ยกเลิก</button>
+                                            <button type="submit" class="btn btn-primary m-0">คอมเม้น</button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>

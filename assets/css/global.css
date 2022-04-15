@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Basier Circle Bold";
   src: url("../fonts/BasierCircle-Bold.eot");
@@ -337,6 +336,7 @@ aside.sidebar .accordion-item {
   border-left: none;
   border-right: none;
   border-color: #EAEAEA;
+  border-radius: 0;
 }
 aside.sidebar .accordion-button {
   background-color: transparent;
@@ -690,7 +690,7 @@ aside.sidebar .accordion-footer ul a:hover {
   cursor: pointer;
 }
 .card-favorite:before {
-  content: "";
+  content: "\f417";
   display: inline-block;
   font-family: bootstrap-icons !important;
   font-style: normal;
@@ -703,7 +703,7 @@ aside.sidebar .accordion-footer ul a:hover {
   -moz-osx-font-smoothing: grayscale;
 }
 .card-favorite.active:before, .card-favorite:hover:before {
-  content: "";
+  content: "\f415";
 }
 
 .card-rating {

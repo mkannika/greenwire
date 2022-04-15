@@ -33,6 +33,7 @@
                             <option>Effect</option>
                             <option>Effect</option>
                         </select>
+                        <i class="bi bi-caret-down-fill"></i>
                     </div>
                     <div class="form-group mx-md-4">
                         <select id="my-select" class="form-control" name="">
@@ -40,6 +41,7 @@
                             <option>Wellness</option>
                             <option>Wellness</option>
                         </select>
+                        <i class="bi bi-caret-down-fill"></i>
                     </div>
                     <div class="form-group">
                         <select id="my-select" class="form-control" name="">
@@ -47,6 +49,7 @@
                             <option>Flavor and Aroma</option>
                             <option>Flavor and Aroma</option>
                         </select>
+                        <i class="bi bi-caret-down-fill"></i>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

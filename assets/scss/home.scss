@@ -1,8 +1,8 @@
 @import "assets/_variables";
 @import "assets/fonts";
 
-.input-group>.form-control:focus,
-.input-group>.form-select:focus,
+.input-group > .form-control:focus,
+.input-group > .form-select:focus,
 .btn:focus {
 	outline: 0 !important;
 	box-shadow: none;
@@ -97,6 +97,16 @@ section {
 		}
 
 		.filter-select {
+			.form-group {
+				position: relative;
+				i {
+					position: absolute;
+					right: 20px;
+					top: 16px;
+					font-size: 12px;
+					color: $color-green;
+				}
+			}
 			.form-control {
 				border-color: $yellow-dark;
 				background-color: $yellow-light;
@@ -175,7 +185,8 @@ section {
 					content: "";
 					border-style: solid;
 					border-width: 5px 10px 5px 0;
-					border-color: transparent $color-green-light transparent transparent;
+					border-color: transparent $color-green-light transparent
+						transparent;
 				}
 			}
 
@@ -186,7 +197,8 @@ section {
 					content: "";
 					border-style: solid;
 					border-width: 5px 0 5px 10px;
-					border-color: transparent transparent transparent $color-green-light;
+					border-color: transparent transparent transparent
+						$color-green-light;
 				}
 			}
 		}

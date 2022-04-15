@@ -124,6 +124,16 @@ section.section-intro .lead-main {
   max-width: 600px;
   margin: auto;
 }
+section.section-intro .filter-select .form-group {
+  position: relative;
+}
+section.section-intro .filter-select .form-group i {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  font-size: 12px;
+  color: #3E9E6C;
+}
 section.section-intro .filter-select .form-control {
   border-color: #F0D8B3;
   background-color: #FFFAF2;

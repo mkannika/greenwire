@@ -26,7 +26,7 @@
                     <p class="my-3 my-md-5">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
                         มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                 </div>
-                <form method="get" action="" class="filter-select d-flex justify-content-center">
+                <form method="get" action="" class="filter-select d-md-flex justify-content-center flex-wrap">
                     <div class="form-group">
                         <select id="my-select" class="form-control" name="">
                             <option>Effect</option>
@@ -54,8 +54,8 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
 
-                <div class="section-slide-1 d-flex">
-                    <div class="col-4">
+                <div class="section-slide-1 d-md-flex">
+                    <div class="col-md-4">
                         <div class="card">
                             <span class="icon-leaf"><img src="./assets/images/home/leaf.svg" alt="Leaf"></span>
                             <div class="card-body">
@@ -67,7 +67,7 @@
                             <div class="card-img"><img src="./assets/images/home/card_img_01.png" alt="Image"></div>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-md-8">
                         <!-- Slider main container -->
                         <div class="swiper">
                             <!-- Additional required wrapper -->
@@ -212,7 +212,7 @@
 						<div class="swiper-wrapper">
 							<!-- Slides -->
 							<div class="swiper-slide">
-								<div class="col-4 swiper-content">
+								<div class="col-md-4 swiper-content">
 									<div class="card">
 										<div class="card-body">
 											<h3 class="card-title">Cannabis 101</h3>
@@ -221,7 +221,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-8">
+								<div class="col-md-8">
 									<div class="swiper-img"><img src="./assets/images/home/slide_02.jpg" alt="Slide"></div>
 								</div>
 							</div>
@@ -247,7 +247,7 @@
                     <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
                 </div>
                 <div class="row">
-                    <div class="col-6 col-md-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3">
                         <div class="card">
                             <div class="card-img">
                                 <img src="./assets/images/home/popular_card_img_01.jpg" alt="Image">
@@ -296,7 +296,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3">
                         <div class="card">
                             <div class="card-img">
                                 <img src="./assets/images/home/popular_card_img_02.jpg" alt="Image">
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3">
                         <div class="card">
                             <div class="card-img">
                                 <img src="./assets/images/home/popular_card_img_03.jpg" alt="Image">
@@ -394,7 +394,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3">
                         <div class="card">
                             <div class="card-img">
                                 <img src="./assets/images/home/popular_card_img_04.jpg" alt="Image">

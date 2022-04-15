@@ -47,6 +47,16 @@ header {
 		height: 118px;
 		background: $color-green-dark;
 
+		@media screen and (max-width: 767px) {
+			padding: 10px 0 20px;
+		}
+
+		.logo {
+			max-width: 180px;
+			margin: 0 auto 1rem;
+			display: block;
+		}
+
 		.auth_button {
 			a {
 				font-size: 13px;
@@ -73,6 +83,10 @@ header {
 		}
 
 		.user_profile {
+			// Display when login
+			@media screen and (max-width: 767px) {
+				display: none !important;
+			}
 			.user_welcome {
 				margin-right: 48px;
 
@@ -131,12 +145,21 @@ header {
 		background: $color-white;
 		border-bottom: 1px solid $color-grey;
 
+		@media screen and (max-width: 767px) {
+			height: 50px;
+		}
+
 		.hamburger-menu {
 			width: 80px;
 			height: 75px;
 			border-left: 1px solid $color-grey;
 			border-right: 1px solid $color-grey;
 			cursor: pointer;
+
+			@media screen and (max-width: 767px) {
+				height: 50px;
+				width: 50px;
+			}
 
 			span {
 				width: 24px;
@@ -163,6 +186,10 @@ header {
 		form {
 			position: relative;
 			border-right: 1px solid $color-grey;
+
+			@media screen and (max-width: 767px) {
+				width: calc(100% - 70px);
+			}
 
 			input {
 				font-size: 15px;
@@ -191,6 +218,20 @@ header {
 		}
 
 		nav {
+			@media screen and (max-width: 767px) {
+				position: fixed;
+				width: 250px;
+				height: 100%;
+				top: 0;
+				right: 0;
+				background: $color-white;
+				padding: 10px 0;
+				transition: all 0.25s linear;
+				transform: translateX(100%);
+				&.active {
+					transform: translateX(0);
+				}
+			}
 			ul {
 				list-style: none;
 				padding: 0;
@@ -198,11 +239,22 @@ header {
 				display: flex;
 				margin: 0 -33px;
 
+				@media screen and (max-width: 767px) {
+					flex-direction: column;
+					margin: 0;
+				}
+
 				li {
 					a {
 						font-size: 15px;
 						color: $color-grey-dark;
 						padding: 15px 33px;
+
+						@media screen and (max-width: 767px) {
+							font-size: 15px;
+							padding: 5px 20px;
+							display: block;
+						}
 					}
 				}
 			}
@@ -341,6 +393,9 @@ article {
 aside {
 	&.sidebar {
 		margin-top: 90px;
+		@media screen and (max-width: 767px) {
+			margin-top: 0;
+		}
 		ul {
 			list-style-type: none;
 			li {
@@ -657,7 +712,7 @@ aside {
 
 	&-title {
 		text-align: left;
-		white-space: nowrap;
+		// white-space: nowrap;
 		margin: 1rem 0 0;
 	}
 

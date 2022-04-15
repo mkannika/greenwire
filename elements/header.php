@@ -1,12 +1,12 @@
 <header class="position-fixed w-100">
-	<div class="nav-top d-flex align-items-center">
+	<div class="nav-top d-md-flex align-items-center">
 		<div class="container">
 			<div class="row">
-				<div class="col">
-					<a href="/"><img src="assets/images/Greenwire-logo.svg" alt="Greenwire Logo"></a>
+				<div class="col-md-6">
+					<a href="/" class="logo"><img src="assets/images/Greenwire-logo.svg" alt="Greenwire Logo"></a>
 				</div>
-				<div class="col">
-					<div class="auth_button d-flex align-items-center justify-content-end">
+				<div class="col-md-6">
+					<div class="auth_button d-flex align-items-center justify-content-md-end justify-content-center">
 						<a href="register.php" class="d-flex align-items-center"><img src="assets/images/register.svg" alt="pin icon">Register</a>
 						<a href="login.php" class="d-flex align-items-center"><img src="assets/images/login.svg" alt="pin icon">Login</a>
 					</div>
@@ -37,7 +37,7 @@
 						<button type="submit"><img src="assets/images/search.png" alt="search icon"></button>
 					</form>
 				</div>
-				<div class="col d-flex align-items-center justify-content-end">
+				<div class="col d-md-flex align-items-center justify-content-end">
 					<nav>
 						<ul>
 							<li><a href="./strain.php">Strain</a></li>
